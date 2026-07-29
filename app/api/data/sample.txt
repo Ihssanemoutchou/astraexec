@@ -1,0 +1,35 @@
+Python est un langage de programmation interprété, multi-paradigme et multiplateforme.
+Il favorise la programmation impérative structurée, fonctionnelle et orientée objet.
+Il est doté d'un typage dynamique fort, d'une gestion automatique de la mémoire par
+ramasse-miettes et d'un système de gestion d'exceptions.
+
+Le machine learning est une méthode d'analyse de données qui automatise la construction
+de modèles analytiques. C'est une branche de l'intelligence artificielle basée sur le
+principe que les systèmes peuvent apprendre à partir de données, identifier des modèles
+et prendre des décisions avec une intervention humaine minimale.
+
+Le deep learning est un sous-ensemble du machine learning qui utilise des réseaux de
+neurones artificiels avec plusieurs couches (réseaux profonds) pour modéliser des
+modèles complexes dans les données.
+
+La recherche vectorielle consiste à représenter des documents ou des requêtes sous forme
+de vecteurs numériques et à calculer la similarité entre eux à l'aide de mesures comme
+le cosinus ou la distance euclidienne.
+
+La recherche lexicale (BM25) est une méthode de classement utilisée par les moteurs de
+recherche pour estimer la pertinence des documents par rapport à une requête donnée.
+Elle repose sur la fréquence des termes et la longueur des documents.
+
+TF-IDF (term frequency-inverse document frequency) est une méthode de pondération qui
+reflète l'importance d'un terme dans un document au sein d'une collection.
+
+FAISS (Facebook AI Similarity Search) est une bibliothèque qui permet la recherche de
+similarité vectorielle efficace, mais dans ce projet nous avons développé notre propre
+moteur vectoriel personnalisé.
+
+La fusion hybride combine les résultats de la recherche vectorielle et de la recherche
+lexicale pour obtenir des résultats plus pertinents que chaque méthode seule.
+
+L'évaluation de la pertinence est cruciale dans les systèmes de recherche. EvidenceRank
+est notre système de re-ranking qui combine plusieurs facteurs : score sémantique, score
+lexical, qualité du chunk et position dans le document.

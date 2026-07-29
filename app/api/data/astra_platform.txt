@@ -1,0 +1,25 @@
+Présentation de la plateforme Astra
+
+Astra est une plateforme de recherche documentaire intelligente. Elle utilise des algorithmes de machine learning pour comprendre le contenu des documents. La plateforme permet aux utilisateurs de poser des questions en langage naturel.
+
+Architecture de la plateforme
+
+La plateforme est composée de plusieurs modules. Le module de recherche utilise à la fois la recherche lexicale et la recherche vectorielle. La recherche lexicale est basée sur l'algorithme BM25 qui analyse la fréquence des termes. La recherche vectorielle utilise la similarité cosinus pour trouver des documents sémantiquement proches.
+
+Fonctionnalités principales
+
+Astra offre une recherche hybride qui combine les résultats des deux approches. Elle supporte le chunking intelligent des documents avec chevauchement. La plateforme inclut également un système de classement qui prend en compte la qualité et la position des chunks.
+
+Sécurité et journalisation
+
+Toutes les actions exécutées sur la plateforme sont validées et journalisées. Un système de détection d'injections permet de bloquer les tentatives de prompt injection. Les journaux d'exécution sont conservés pour permettre le suivi et le débogage.
+
+Modules de la plateforme
+
+La plateforme AstraExec est composée des modules suivants :
+- API : point d'entrée pour les requêtes
+- Executor : exécution des actions
+- Retrieval : recherche documentaire
+- Registry : gestion des outils
+- Guardrails : sécurité et validation
+- Telemetry : journalisation

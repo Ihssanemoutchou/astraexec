@@ -1,0 +1,15 @@
+Introduction à la recherche lexicale
+
+La recherche lexicale est une méthode de recherche d'information qui repose sur l'appariement exact des termes. Contrairement à la recherche vectorielle, elle ne tient pas compte du sens des mots. Cependant, elle reste très efficace pour les requêtes précises.
+
+L'algorithme BM25
+
+BM25 est un algorithme de classement lexical très utilisé. Il calcule un score de pertinence entre une requête et un document. Le score prend en compte la fréquence du terme dans le document (TF) et la fréquence inverse dans la collection (IDF). BM25 utilise également des paramètres de saturation k1 et b pour ajuster le comportement.
+
+Tokenisation et prétraitement
+
+Avant d'indexer les documents, le texte doit être tokenisé. La tokenisation consiste à découper le texte en mots. Le prétraitement inclut la mise en minuscules, la suppression de la ponctuation et la normalisation des accents.
+
+Le TF-IDF
+
+Le TF-IDF est une autre méthode de pondération lexicale. Il combine la fréquence d'un terme dans un document (TF) avec sa rareté dans la collection (IDF). Le TF-IDF est souvent utilisé comme alternative à BM25 dans les systèmes de recherche simples.

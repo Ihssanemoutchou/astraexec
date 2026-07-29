@@ -1,0 +1,98 @@
+2026-07-26 01:13:37,338 | ERROR | ERROR | Time=0.0019s | L'outil 'string' n'existe pas.
+2026-07-26 01:14:25,917 | ERROR | ERROR | Time=0.2741s | 'NoneType' object has no attribute 'search'
+2026-07-26 01:14:30,112 | ERROR | ERROR | Time=0.0327s | 'NoneType' object has no attribute 'search'
+2026-07-26 01:20:41,695 | ERROR | ERROR | Time=0.0614s | 'NoneType' object has no attribute 'search'
+2026-07-26 01:27:44,174 | INFO | SUCCESS | Tool=fusion_search | Time=0.0913s
+2026-07-26 01:27:46,359 | INFO | SUCCESS | Tool=fusion_search | Time=0.0388s
+2026-07-26 02:02:45,683 | INFO | SUCCESS | Tool=fusion_search | Time=0.0558s
+2026-07-26 13:22:24,559 | INFO | SUCCESS | Tool=fusion_search | Time=0.0366s
+2026-07-26 13:23:55,481 | INFO | SUCCESS | Tool=fusion_search | Time=0.0501s
+2026-07-26 13:24:53,428 | INFO | SUCCESS | Tool=fusion_search | Time=0.0532s
+2026-07-26 13:25:47,259 | INFO | SUCCESS | Tool=fusion_search | Time=0.0387s
+2026-07-26 14:20:14,107 | INFO | SUCCESS | Tool=fusion_search | Time=0.0019s
+2026-07-26 14:26:14,464 | INFO | SUCCESS | Tool=fusion_search | Time=0.0020s
+2026-07-26 14:27:08,177 | INFO | SUCCESS | Tool=fusion_search | Time=0.0008s
+2026-07-26 14:35:34,146 | INFO | SUCCESS | Tool=fusion_search | Time=0.0006s
+2026-07-26 14:35:37,909 | INFO | SUCCESS | Tool=fusion_search | Time=0.0005s
+2026-07-26 14:37:12,699 | INFO | SUCCESS | Tool=test_tool | Time=0.0001s
+2026-07-26 14:37:12,699 | ERROR | ERROR | Time=0.0001s | L'outil 'inexistant' n'existe pas.
+2026-07-26 14:37:12,700 | INFO | START | FusionSearch
+2026-07-26 14:37:12,700 | INFO | SUCCESS | Tool=FusionSearch | Time=0.1234s
+2026-07-26 14:37:12,700 | INFO | END | FusionSearch
+2026-07-26 14:37:12,700 | ERROR | ERROR | Time=0.0500s | Document introuvable
+2026-07-26 14:37:14,097 | INFO | SUCCESS | Tool=fusion_search | Time=0.0007s
+2026-07-26 14:37:35,231 | INFO | SUCCESS | Tool=fusion_search | Time=0.0005s
+2026-07-26 14:39:21,790 | INFO | SUCCESS | Tool=test_tool | Time=0.0001s
+2026-07-26 14:39:21,792 | ERROR | ERROR | Time=0.0001s | L'outil 'inexistant' n'existe pas.
+2026-07-26 14:39:21,793 | INFO | START | FusionSearch
+2026-07-26 14:39:21,793 | INFO | SUCCESS | Tool=FusionSearch | Time=0.1234s
+2026-07-26 14:39:21,793 | INFO | END | FusionSearch
+2026-07-26 14:39:21,794 | ERROR | ERROR | Time=0.0500s | Document introuvable
+2026-07-26 14:39:23,632 | INFO | SUCCESS | Tool=fusion_search | Time=0.0006s
+2026-07-26 16:51:09,349 | INFO | SUCCESS | Tool=test_tool | Time=0.0013s
+2026-07-26 16:51:09,352 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-07-26 16:51:09,354 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-07-26 16:51:09,357 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-07-26 16:51:09,387 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-07-26 16:51:09,590 | ERROR | ERROR | Time=0.0400s | Test error
+2026-07-26 16:51:31,090 | INFO | SUCCESS | Tool=test_tool | Time=0.0013s
+2026-07-26 16:51:31,092 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-07-26 16:51:31,096 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-07-26 16:51:31,098 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-07-26 16:51:31,121 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-07-26 16:51:31,285 | ERROR | ERROR | Time=0.0400s | Test error
+2026-07-26 16:52:13,587 | INFO | SUCCESS | Tool=test_tool | Time=0.0013s
+2026-07-26 16:52:13,590 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-07-26 16:52:13,593 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-07-26 16:52:13,598 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-07-26 16:52:13,618 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-07-26 16:52:13,623 | ERROR | ERROR | Time=0.0400s | Test error
+2026-07-26 16:52:13,628 | INFO | Info message
+2026-07-26 16:52:13,633 | WARNING | Warning message
+2026-07-26 16:52:13,636 | INFO | START | FusionSearch
+2026-07-26 16:52:13,636 | INFO | END | FusionSearch
+2026-07-26 16:52:13,640 | INFO | EVENT | TEST | Message
+2026-07-26 16:53:10,253 | INFO | SUCCESS | Tool=test_tool | Time=0.0013s
+2026-07-26 16:53:10,256 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-07-26 16:53:10,258 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-07-26 16:53:10,260 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-07-26 16:53:10,272 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-07-26 16:53:10,274 | ERROR | ERROR | Time=0.0400s | Test error
+2026-07-26 16:53:10,278 | INFO | Info message
+2026-07-26 16:53:10,282 | WARNING | Warning message
+2026-07-26 16:53:10,284 | INFO | START | FusionSearch
+2026-07-26 16:53:10,284 | INFO | END | FusionSearch
+2026-07-26 16:53:10,287 | INFO | EVENT | TEST | Message
+2026-07-26 17:05:52,608 | INFO | SUCCESS | Tool=test_tool | Time=0.0013s
+2026-07-26 17:05:52,612 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-07-26 17:05:52,615 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-07-26 17:05:52,617 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-07-26 17:05:52,639 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-07-26 17:05:52,644 | ERROR | ERROR | Time=0.0400s | Test error
+2026-07-26 17:05:52,652 | INFO | Info message
+2026-07-26 17:05:52,663 | WARNING | Warning message
+2026-07-26 17:05:52,667 | INFO | START | FusionSearch
+2026-07-26 17:05:52,667 | INFO | END | FusionSearch
+2026-07-26 17:05:52,670 | INFO | EVENT | TEST | Message
+2026-07-26 17:36:26,810 | INFO | SUCCESS | Tool=test_tool | Time=0.0013s
+2026-07-26 17:36:26,814 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-07-26 17:36:26,817 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-07-26 17:36:26,819 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-07-26 17:36:26,835 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-07-26 17:36:26,838 | ERROR | ERROR | Time=0.0400s | Test error
+2026-07-26 17:36:26,841 | INFO | Info message
+2026-07-26 17:36:26,844 | WARNING | Warning message
+2026-07-26 17:36:26,848 | INFO | START | FusionSearch
+2026-07-26 17:36:26,849 | INFO | END | FusionSearch
+2026-07-26 17:36:26,851 | INFO | EVENT | TEST | Message
+2026-07-28 23:41:32,917 | INFO | SUCCESS | Tool=test_tool | Time=0.0014s
+2026-07-28 23:41:32,922 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-07-28 23:41:32,927 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-07-28 23:41:32,933 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-07-28 23:41:32,956 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-07-28 23:41:32,960 | ERROR | ERROR | Time=0.0400s | Test error
+2026-07-28 23:41:32,964 | INFO | Info message
+2026-07-28 23:41:32,973 | WARNING | Warning message
+2026-07-28 23:41:32,980 | INFO | START | FusionSearch
+2026-07-28 23:41:32,980 | INFO | END | FusionSearch
+2026-07-28 23:41:32,988 | INFO | EVENT | TEST | Message

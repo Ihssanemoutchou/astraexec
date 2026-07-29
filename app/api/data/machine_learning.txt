@@ -1,0 +1,15 @@
+Introduction au Machine Learning
+
+Le machine learning est une branche de l'intelligence artificielle. Il permet aux ordinateurs d'apprendre à partir de données sans être explicitement programmés. Les algorithmes de machine learning construisent des modèles mathématiques basés sur des données d'entraînement.
+
+Types d'apprentissage
+
+Il existe trois principaux types d'apprentissage. L'apprentissage supervisé utilise des données étiquetées. L'apprentissage non supervisé découvre des structures cachées dans les données. L'apprentissage par renforcement apprend par essais et erreurs en interagissant avec un environnement.
+
+Deep Learning
+
+Le deep learning est une sous-catégorie du machine learning qui utilise des réseaux de neurones profonds. Ces réseaux sont composés de plusieurs couches qui transforment progressivement les données. Le deep learning excelle dans des domaines comme la vision par ordinateur et le traitement du langage naturel.
+
+Applications
+
+Le machine learning est utilisé dans de nombreux domaines. La recherche d'information utilise le machine learning pour améliorer la pertinence des résultats. Les moteurs de recherche modernes combinent des approches lexicales et vectorielles pour offrir la meilleure expérience utilisateur.
