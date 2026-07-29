@@ -28,12 +28,12 @@ Le module est composé des sous-modules suivants :
 
 - Python 3.11
 - FastAPI
+- NumPy
+- Pickle
 - Pydantic
-- FAISS
-- Sentence Transformers
-- Rank-BM25
 - Pytest
+
 
 ## Auteur
 
-Projet de stage - EMSI
+Ihssane MOUTCHOU - EMSI
