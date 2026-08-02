@@ -2,10 +2,15 @@
 SmartSeg — Segmentation intelligente maison
 ============================================
 
-Remplace PyMuPDF (fitz) par un lecteur de fichiers texte pur Python.
+Moteur de segmentation agnostique au format d'entrée : le pipeline
+(nettoyage → phrases → sections → chunks) s'applique à du texte brut,
+qu'il provienne d'un fichier .txt (via load_text, conservé pour la
+rétrocompatibilité) ou de tout autre lecteur externe (ex. PDF via
+PDFDocumentReader puis process_text).
 
 Fonctionnalités :
-  - Lecture de fichiers .txt uniquement (pas de dépendance PDF)
+  - Segmentation de texte brut : process_text(text, source)
+  - Lecture .txt conservée      : load_text + process(path)
   - Nettoyage avancé du texte
   - Segmentation en phrases
   - Chunking avec overlap
@@ -109,8 +114,17 @@ class SmartSeg:
             for idx, chunk in enumerate(chunks)
         ]
 
-    def process(self, file_path: str) -> List[Dict]:
-        text = self.load_text(file_path)
+    def process_text(self, text: str, source: str) -> List[Dict]:
+        """
+        Segmente un texte déjà chargé en mémoire et retourne les chunks.
+
+        Entrée générique pour tout format (TXT, PDF, ...) : le texte est
+        fourni brut par un lecteur externe (ex. ReaderFactory), la source
+        sert uniquement aux métadonnées.
+
+        Réutilise exactement la même logique que `process` :
+        nettoyage → suppression du bruit → phrases → sections → chunks.
+        """
         text = self.clean_text(text)
         text = self.remove_noise(text)
         sentences = self.split_sentences(text)
@@ -118,7 +132,11 @@ class SmartSeg:
         all_chunks = []
         for section in sections:
             all_chunks.extend(self.split_into_chunks(section))
-        return self.build_metadata(all_chunks, file_path)
+        return self.build_metadata(all_chunks, source)
+
+    def process(self, file_path: str) -> List[Dict]:
+        text = self.load_text(file_path)
+        return self.process_text(text, file_path)
 
     def info(self) -> Dict:
         return {
