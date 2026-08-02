@@ -56,20 +56,25 @@ def print_info(text: str):
 # Chaque association est justifiée par le contenu du chunk dans
 # docs/campagne_evaluation.md (section « Construction du Ground Truth »).
 #
-# Sources et thèmes des chunks :
-#   astra_platform.txt  → chunks 0, 1, 2   (plateforme, vectoriel, sécurité)
-#   machine_learning.txt → chunks 3, 4, 5, 6 (ML intro, RL, applications)
-#   recherche_lexicale.txt → chunks 7, 8, 9 (lexical, TF/IDF, BM25)
-#   sample.txt  → chunks 10-16 (Python, AI, deep, BM25, TF-IDF, hybride, EvidenceRank)
+# CORPUS ACTUEL : 7 documents (4 TXT + 3 PDF) → 415 chunks.
+# L'ajout des PDF a décalé les chunk_id des documents TXT. Les IDs ci-dessous
+# ont été réalignés par correspondance de contenu IDENTIQUE avec l'ancien
+# corpus (17 chunks), sans modifier les jugements de pertinence.
+#
+# Sources et thèmes des chunks (IDs actuels) :
+#   astra_platform.txt   → chunks 0, 1, 2    (plateforme, vectoriel, sécurité)
+#   machine_learning.txt → chunks 78-81      (ML intro, RL, applications)
+#   recherche_lexicale.txt → chunks 82-84    (lexical, TF/IDF, BM25)
+#   sample.txt           → chunks 85-91      (Python, AI, deep, BM25, TF-IDF, hybride, EvidenceRank)
 
 EVAL_SET: List[Dict] = [
     {
         "query": "machine learning intelligence artificielle",
-        "relevant": {3, 4, 5, 11, 12},
+        "relevant": {78, 79, 80, 86, 87},
     },
     {
         "query": "BM25 recherche lexicale",
-        "relevant": {7, 8, 9},
+        "relevant": {82, 83, 84},
     },
     {
         "query": "plateforme Astra architecture",
@@ -77,23 +82,23 @@ EVAL_SET: List[Dict] = [
     },
     {
         "query": "TF-IDF pondération fréquence",
-        "relevant": {8, 14},
+        "relevant": {83, 89},
     },
     {
         "query": "deep learning réseaux neurones",
-        "relevant": {12, 4},
+        "relevant": {79, 87},
     },
     {
         "query": "recherche vectorielle hybride",
-        "relevant": {1, 15, 6},
+        "relevant": {1, 81, 90},
     },
     {
         "query": "Python programmation langage",
-        "relevant": {10},
+        "relevant": {85},
     },
     {
         "query": "évaluation pertinence EvidenceRank",
-        "relevant": {16},
+        "relevant": {91},
     },
 ]
 

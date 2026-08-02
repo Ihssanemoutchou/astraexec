@@ -15,6 +15,110 @@
 
 ---
 
+## 0. Mise à jour (2 août 2026) — migration du corpus après ajout des PDF
+
+### 0.1 Ce qui a changé
+
+Le corpus de démonstration est passé de **4 documents TXT** à **7 documents
+(4 TXT + 3 PDF)** :
+
+| Document | Type |
+|---|---|
+| `astra_platform.txt` | TXT |
+| `Contexte et enjeux.pdf` | PDF |
+| `fiche_synthese_cnn.pdf` | PDF |
+| `machine_learning.txt` | TXT |
+| `recherche_lexicale.txt` | TXT |
+| `sample.txt` | TXT |
+| `Towards Agentic RAG with Deep Reasoning.pdf` | PDF |
+
+Le nombre de chunks indexés est passé de **17 à 415**.
+
+### 0.2 Pourquoi les chunk_id ont changé
+
+`DocumentManager` parcourt le dossier dans l'**ordre alphabétique des fichiers** et
+attribue un `chunk_id` **global et séquentiel** à chaque chunk produit. L'ajout des
+PDF a intercalé de nouveaux fichiers dans l'ordre de lecture (ex. `Contexte et
+enjeux.pdf` est lu avant `machine_learning.txt`). Par conséquent, **tous les chunks
+des documents TXT ont été décalés**, tandis que les anciens IDs 0-16 désignent
+désormais des chunks PDF différents.
+
+Conséquence : l'ancien ground truth (IDs 0-16) ne pointait plus vers les mêmes
+contenus. L'évaluateur comparait alors des chunks pertinents *réels* (retrouvés par
+le moteur avec les bons contenus, ex. 78, 79, 80 pour le machine learning) à des IDs
+obsolètes → Recall@K et MRR artificiellement bas (0.1667 / 0.2917 / 0.2500).
+
+### 0.3 Méthode de réalignement du ground truth
+
+Les jugements de pertinence d'origine ont été **conservés à l'identique**. Pour
+chaque ancien chunk pertinent, le nouvel ID a été obtenu par **correspondance de
+contenu exacte** entre l'index TXT-seul (qui reproduit fidèlement l'ancien corpus de
+17 chunks, vérifié par marqueurs de contenu) et l'index complet de 415 chunks. La
+segmentation (SmartSeg) n'ayant pas changé, chaque ancien chunk se retrouve à
+l'identique dans le nouvel index.
+
+| Ancien ID | Nouvel ID | Source | Ancien ID | Nouvel ID | Source |
+|---|---|---|---|---|---|
+| 0 | 0 | astra_platform.txt | 9 | 84 | recherche_lexicale.txt |
+| 1 | 1 | astra_platform.txt | 10 | 85 | sample.txt |
+| 2 | 2 | astra_platform.txt | 11 | 86 | sample.txt |
+| 3 | 78 | machine_learning.txt | 12 | 87 | sample.txt |
+| 4 | 79 | machine_learning.txt | 13 | 88 | sample.txt |
+| 5 | 80 | machine_learning.txt | 14 | 89 | sample.txt |
+| 6 | 81 | machine_learning.txt | 15 | 90 | sample.txt |
+| 7 | 82 | recherche_lexicale.txt | 16 | 91 | sample.txt |
+| 8 | 83 | recherche_lexicale.txt | — | — | — |
+
+### 0.4 Nouveau ground truth (EVAL_SET)
+
+| Requête | Anciens IDs | Nouveaux IDs |
+|---|---|---|
+| machine learning intelligence artificielle | 3, 4, 5, 11, 12 | 78, 79, 80, 86, 87 |
+| BM25 recherche lexicale | 7, 8, 9 | 82, 83, 84 |
+| plateforme Astra architecture | 0, 1, 2 | 0, 1, 2 |
+| TF-IDF pondération fréquence | 8, 14 | 83, 89 |
+| deep learning réseaux neurones | 4, 12 | 79, 87 |
+| recherche vectorielle hybride | 1, 6, 15 | 1, 81, 90 |
+| Python programmation langage | 10 | 85 |
+| évaluation pertinence EvidenceRank | 16 | 91 |
+
+**20 associations pertinentes conservées** — aucun jugement modifié ni ajouté.
+
+### 0.5 Résultats réels sur le corpus actuel (415 chunks)
+
+| # | Requête | Recall@5 | Recall@10 | RR |
+|---|---|---|---|---|
+| 1 | machine learning intelligence artificielle | 0.6000 | 1.0000 | 1.0 |
+| 2 | BM25 recherche lexicale | 0.6667 | 0.6667 | 1.0 |
+| 3 | plateforme Astra architecture | 1.0000 | 1.0000 | 1.0 |
+| 4 | TF-IDF pondération fréquence | 1.0000 | 1.0000 | 1.0 |
+| 5 | deep learning réseaux neurones | 1.0000 | 1.0000 | 1.0 |
+| 6 | recherche vectorielle hybride | 0.6667 | 1.0000 | 1.0 |
+| 7 | Python programmation langage | 1.0000 | 1.0000 | 1.0 |
+| 8 | évaluation pertinence EvidenceRank | 1.0000 | 1.0000 | 1.0 |
+| **Moyenne** | | **0.8667** | **0.9583** | **MRR = 1.0000** |
+
+Lecture : le moteur place systématiquement un chunk pertinent en première position
+(MRR = 1.0) et retrouve ~87 % des pertinents dans le top 5. La légère baisse du
+Recall@5 par rapport à l'ancien corpus (0.8917 → 0.8667) s'explique par la **forte
+concurrence des nouveaux chunks PDF** dans le top 5 (ex. chunk 86 repoussé hors du
+top 5 pour la requête machine learning), et non par une dégradation du moteur : à
+K=10, les requêtes concernées récupèrent leurs chunks manquants (Recall@10 = 1.0).
+
+### 0.6 Comparaison avant / après correction
+
+| Métrique | Ancien GT (obsolète) | Nouveau GT (aligné) |
+|---|---|---|
+| Mean Recall@5 | 0.1667 | **0.8667** |
+| Mean Recall@10 | 0.2917 | **0.9583** |
+| MRR | 0.2500 | **1.0000** |
+
+Les chiffres « avant » sont les résultats réels obtenus avec l'ancien EVAL_SET sur
+le nouveau corpus : ils mesurent une incohérence d'annotation, pas la qualité du
+moteur.
+
+---
+
 ## 1. Objectif de la campagne d'évaluation
 
 Un moteur de recherche, aussi soigné soit-il, ne peut prétendre à la fiabilité que si
@@ -669,14 +773,15 @@ résultats** (Mean Recall@5 = 0.8917, MRR = 1.0 — vérifiés avant et après).
 
 La campagne d'évaluation de la recherche hybride AstraExec repose sur un protocole
 explicite en 6 étapes, un ground truth manuel traçable (20 associations justifiées par
-le contenu réel des 17 chunks) et des métriques standard calculées de manière
-déterministe. Les résultats réels — **Mean Recall@5 = 0.8917**, **MRR = 1.0000**,
-**Mean Recall@10 = 0.9583** — montrent que le moteur place systématiquement un
-document pertinent en tête et retrouve près de 90 % des pertinents dans le top 5.
+le contenu réel des chunks) et des métriques standard calculées de manière
+déterministe. Sur le corpus actuel (7 documents, 415 chunks), les résultats réels —
+**Mean Recall@5 = 0.8667**, **MRR = 1.0000**, **Mean Recall@10 = 0.9583** — montrent
+que le moteur place systématiquement un document pertinent en tête et retrouve près
+de 87 % des pertinents dans le top 5 (voir section 0 pour la migration du corpus).
 
 L'analyse critique identifie les deux seules dégradations comme des artefacts de
-segmentation et de forme lexicale (chunks 8 et 6), et non comme des défauts de la
-fusion. Les limites (corpus réduit, 8 requêtes, annotation mono-annotateur, absence de
+segmentation et de forme lexicale (chunks 83 et 81, ex-8 et ex-6), et non comme des
+défauts de la fusion. Les limites (corpus réduit, 8 requêtes, annotation mono-annotateur, absence de
 précision/NDCG et d'utilisateurs réels) bornent la portée des conclusions et tracent
 les perspectives de consolidation.
 
