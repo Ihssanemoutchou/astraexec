@@ -1,238 +1,414 @@
-<div align="center">
+# 🚀 AstraExec — Intelligent Action Module for RAG Agents
 
-# 🚀 AstraExec
+<p align="center">
 
-### Intelligent Action Module for Agentic RAG Systems
+**Custom Action Module for Retrieval-Augmented Generation (RAG) Agents**
 
-Execution Engine • Hybrid Retrieval • ChromaDB • Ethical Filtering • Evaluation Framework
+Python • FastAPI • ChromaDB • SentenceTransformers • Hybrid Retrieval • BM25 • Security • Evaluation
 
----
-
-Projet réalisé dans le cadre d'un **Stage Ingénieur** à l'**EMSI**.
-
-</div>
+</p>
 
 ---
 
-# 📖 Table des matières
+# 📖 Overview
 
-- Présentation
-- Fonctionnalités
-- Architecture
-- Workflow
-- Structure du projet
-- Technologies
-- Installation
-- Utilisation
-- API REST
-- Recherche hybride
-- Base documentaire
-- Évaluation
-- Sécurité
-- Livrables
-- Perspectives
+AstraExec est un **module d'action intelligent** développé dans le cadre d'un stage d'ingénieur à l'EMSI.
+
+Il constitue la partie **Action** d'un agent RAG et est responsable de l'exécution sécurisée des actions générées par le **Module Reasoning**.
+
+Contrairement à un moteur de recherche classique, AstraExec orchestre plusieurs composants afin de :
+
+- exécuter des outils spécialisés ;
+- effectuer une recherche hybride (sémantique + lexicale) ;
+- protéger le système contre les attaques de Prompt Injection ;
+- filtrer les requêtes sensibles ;
+- produire des résultats fiables et interprétables ;
+- fournir une base documentaire vectorielle réutilisable par le Module Reasoning.
 
 ---
 
-# 🎯 Présentation
+# 🎯 Objectifs du projet
 
-AstraExec est un **Action Module** destiné aux architectures **Agentic RAG**.
+Le projet répond aux objectifs suivants :
 
-Contrairement à un moteur de recherche documentaire classique, AstraExec est responsable de :
-
-- l'exécution des actions,
-- l'orchestration des outils,
-- la validation des requêtes,
-- la récupération des connaissances,
-- la sécurisation de l'exécution,
-- l'évaluation des performances.
-
-Le module reçoit un plan d'action provenant du **Reasoning Module**, sélectionne les outils adaptés puis retourne une réponse fiable.
+- Développer un moteur d'exécution d'actions pour un agent RAG.
+- Concevoir des outils personnalisés inspirés des techniques de recherche modernes.
+- Fournir une base documentaire vectorielle exploitable par le Module Reasoning.
+- Garantir la sécurité des interactions grâce à plusieurs niveaux de validation.
+- Évaluer objectivement les performances du système.
 
 ---
 
-# ✨ Fonctionnalités
+# ✨ Fonctionnalités principales
 
-## ⚙️ Action Engine
+## ⚙️ Moteur d'exécution
 
-- Tool Registry
-- Action Executor
-- Validation des actions
-- Routage intelligent
-
----
-
-## 🔎 Recherche Hybride
-
-- Recherche lexicale (LexiRank)
-- Recherche vectorielle
-- Fusion des résultats
-- EvidenceRank
+- Exécution d'actions
+- Validation des paramètres
+- Gestion des erreurs
+- Journalisation des exécutions
 
 ---
 
-## 📚 Gestion documentaire
+## 🔎 Recherche hybride personnalisée
 
-- Import TXT
-- Import PDF
-- SmartSeg
-- Génération automatique des chunks
-- Base documentaire ChromaDB
+AstraExec implémente plusieurs outils développés spécifiquement pour ce projet :
+
+### FusionSearch
+
+Recherche hybride combinant :
+
+- recherche vectorielle
+- recherche lexicale BM25
+
+---
+
+### LexiRank
+
+Recherche lexicale personnalisée inspirée de BM25.
+
+Fonctions :
+
+- normalisation
+- tokenisation
+- indexation
+- calcul lexical
+
+---
+
+### EvidenceRank
+
+Système de re-ranking utilisant :
+
+- score sémantique
+- score lexical
+- qualité du document
+- position du chunk
+
+---
+
+### SmartSeg
+
+Segmentation intelligente des documents :
+
+- TXT
+- PDF
+
+avec gestion :
+
+- overlap
+- taille minimale
+- métadonnées
+
+---
+
+## 🗄 Base documentaire (Livrable 4)
+
+Le module génère automatiquement une base documentaire vectorielle.
+
+Fonctionnalités :
+
+- génération des embeddings
+- stockage ChromaDB
+- export ZIP
+- livraison au Module Reasoning
+
+Composants :
+
+- EmbeddingGenerator
+- ChromaManager
+- BaseExport
 
 ---
 
 ## 🛡 Sécurité
 
-- Validation des paramètres
-- Ethical Filter
-- Détection de Prompt Injection
-- Journalisation complète
+Le projet intègre plusieurs couches de sécurité :
+
+### Validator
+
+Validation des actions.
+
+### InjectionGuard
+
+Détection des Prompt Injections.
+
+### EthicalFilter
+
+Blocage des requêtes dangereuses :
+
+- prompt injection
+- bypass
+- hidden instructions
+- contenus malveillants
 
 ---
 
-## 📊 Évaluation
+## 📊 Campagne d'évaluation (Livrable 5)
 
-Campagne complète d'évaluation :
+Le projet contient une campagne complète d'évaluation.
+
+### Recherche
 
 - Recall@5
 - Recall@10
 - Mean Reciprocal Rank
+
+### Sécurité
+
+- Prompt Injection
+- Validation
 - Robustesse
-- Sécurité
-- Performance
+
+### Performance
+
+- Temps moyen
+- Débit
+- Charge
 
 ---
 
 # 🏗 Architecture
 
-```text
-Utilisateur
-
-        │
-
-        ▼
-
-    FastAPI
-
-        │
-
-        ▼
-
-    Validator
-
-        │
-
-        ▼
-
- Ethical Filter
-
-        │
-
-        ▼
-
-    Executor
-
-        │
-
-        ▼
-
- Tool Registry
-
-        │
-
-        ▼
-
- Hybrid Search
-
-   ├── LexiRank
-   ├── Vector Search
-   └── EvidenceRank
-
-        │
-
-        ▼
-
-   ChromaDB
-
-        │
-
-        ▼
-
-Réponse
 ```
-
----
-
-# 🔄 Workflow
-
-1. Réception d'une requête.
-2. Validation.
-3. Filtrage éthique.
-4. Sélection automatique du bon outil.
-5. Recherche hybride.
-6. Réordonnancement des résultats.
-7. Génération de la réponse.
-8. Journalisation.
+                    Module Reasoning
+                           │
+                           ▼
+                   AstraExec API
+                           │
+          ┌────────────────────────────────┐
+          │           Executor             │
+          └────────────────────────────────┘
+                           │
+        ┌──────────────────┼──────────────────┐
+        ▼                  ▼                  ▼
+   Tool Registry      Guardrails        Telemetry
+        │                  │
+        ▼                  ▼
+   FusionSearch      Ethical Filter
+        │
+        ▼
+ Hybrid Retrieval
+        │
+        ▼
+ EvidenceRank
+        │
+        ▼
+ ChromaDB Storage
+```
 
 ---
 
 # 📂 Structure du projet
 
-```text
+```
 astra-exec/
 
 app/
 │
 ├── api/
 ├── executor/
-├── retrieval/
 ├── registry/
+├── retrieval/
 ├── storage/
 ├── guardrails/
 ├── telemetry/
-├── evaluation/
-├── security/
-└── utils/
-
+├── schemas/
+├── utils/
+│
 docs/
-
+tests/
 logs/
-
 exports/
+
+demo.py
+demo_database.py
+demo_evaluation.py
 ```
 
 ---
 
-# ⚙️ Technologies
+# 🔄 Workflow
 
-| Technologie | Utilisation |
-|-------------|-------------|
-| Python 3.11 | Langage principal |
-| FastAPI | API REST |
-| ChromaDB | Base documentaire vectorielle |
-| Sentence Transformers | Embeddings |
-| all-MiniLM-L6-v2 | Modèle d'embedding |
-| NumPy | Calcul scientifique |
-| Pydantic | Validation |
-| Pytest | Tests |
+```
+Question utilisateur
+
+↓
+
+Module Reasoning
+
+↓
+
+Action JSON
+
+↓
+
+Executor
+
+↓
+
+Validator
+
+↓
+
+Ethical Filter
+
+↓
+
+FusionSearch
+
+↓
+
+LexiRank
+
+↓
+
+Recherche vectorielle
+
+↓
+
+EvidenceRank
+
+↓
+
+Résultat final
+
+↓
+
+Module Reasoning
+```
+
+---
+
+# 🗄 Base documentaire
+
+La base documentaire est construite automatiquement.
+
+Pipeline :
+
+Documents
+
+↓
+
+SmartSeg
+
+↓
+
+Embeddings
+
+↓
+
+ChromaDB
+
+↓
+
+Export ZIP
+
+↓
+
+Module Reasoning
+
+---
+
+# 📡 API
+
+## Health
+
+GET
+
+```
+/health
+```
+
+---
+
+## Execute
+
+POST
+
+```
+/execute
+```
+
+Exemple :
+
+```json
+{
+  "tool": "fusion_search",
+  "parameters": {
+    "query": "machine learning"
+  }
+}
+```
+
+---
+
+# 📈 Évaluation
+
+Les campagnes d'évaluation couvrent :
+
+## Recherche
+
+- Recall@5
+- Recall@10
+- MRR
+
+## Robustesse
+
+- erreurs
+- récupération
+
+## Sécurité
+
+- Prompt Injection
+- Ethical Filter
+
+## Performance
+
+- temps moyen
+- benchmark
+
+---
+
+# 📚 Documentation
+
+Le projet contient une documentation complète :
+
+```
+docs/
+
+livrable4.md
+
+livrable5.md
+
+contrat_integration.md
+
+campagne_evaluation.md
+```
 
 ---
 
 # 🚀 Installation
 
+Créer un environnement virtuel
+
 ```bash
-git clone https://github.com/...
-
-cd astra-exec
-
 python -m venv .venv
-
-pip install -r requirements.txt
 ```
 
----
+Activation
 
-# ▶ Utilisation
+Windows
+
+```bash
+.\.venv\Scripts\activate
+```
+
+Installation
+
+```bash
+pip install -r requirements.txt
+```
 
 Lancer l'API
 
@@ -240,13 +416,23 @@ Lancer l'API
 uvicorn app.api.main:app --reload
 ```
 
-Créer la base documentaire
+---
+
+# ▶ Démonstrations
+
+Exécution principale
+
+```bash
+python demo.py
+```
+
+Base documentaire
 
 ```bash
 python demo_database.py
 ```
 
-Lancer la campagne d'évaluation
+Campagne d'évaluation
 
 ```bash
 python demo_evaluation.py
@@ -254,98 +440,56 @@ python demo_evaluation.py
 
 ---
 
-# 📡 API REST
+# 🛠 Technologies
 
-Principaux endpoints :
-
-```
-POST /execute
-
-POST /documents
-
-GET /health
-```
-
----
-
-# 🔎 Recherche hybride
-
-Le moteur combine :
-
-- recherche lexicale,
-- recherche vectorielle,
-- fusion des résultats,
-- reranking via EvidenceRank.
-
-Cette approche améliore la pertinence des réponses par rapport à une recherche purement lexicale ou vectorielle.
+| Technologie | Utilisation |
+|-------------|------------|
+| Python 3.11 | Langage principal |
+| FastAPI | API REST |
+| ChromaDB | Base documentaire |
+| SentenceTransformers | Embeddings |
+| NumPy | Calcul scientifique |
+| PyMuPDF | Lecture PDF |
+| Pytest | Tests |
+| BM25 | Recherche lexicale |
+| FAISS (prototype) | Recherche vectorielle |
+| Git | Versionning |
 
 ---
 
-# 📚 Base documentaire
+# 🤝 Intégration avec le Module Reasoning
 
-Le Livrable 4 introduit une base documentaire vectorielle reposant sur ChromaDB.
+AstraExec fournit au Module Reasoning :
 
-Elle permet :
+- Base documentaire ChromaDB
+- Contrat d'intégration
+- Documentation technique
+- API REST
+- Outils disponibles
+- Schéma des actions
+- Guide de fusion
 
-- l'import de documents TXT et PDF ;
-- la génération automatique des embeddings ;
-- la persistance des données ;
-- l'export de la base pour le module Reasoning.
-
----
-
-# 📊 Campagne d'évaluation
-
-Le projet intègre une campagne complète d'évaluation mesurant :
-
-- Recall@5
-- Recall@10
-- Mean Reciprocal Rank (MRR)
-
-Ces métriques permettent d'évaluer la qualité du moteur de recherche hybride.
+La communication entre les deux modules repose sur un contrat d'intégration garantissant une fusion sans conflit.
 
 ---
 
-# 🛡 Sécurité
+# 🗺 Roadmap
 
-AstraExec applique plusieurs mécanismes de sécurité :
-
-- validation des entrées ;
-- filtre éthique ;
-- protection contre les Prompt Injections ;
-- journalisation des actions.
-
----
-
-# 📦 Livrables
-
-| Livrable | Description |
-|----------|-------------|
-| Livrable 1 | Architecture |
-| Livrable 2 | Action Engine |
-| Livrable 3 | Recherche hybride |
-| Livrable 4 | Base documentaire ChromaDB |
-| Livrable 5 | Campagne d'évaluation |
-| Livrable 6 | Sécurité, filtres et finalisation |
-
----
-
-# 🔮 Perspectives
-
-- Ajout de nouveaux outils.
-- Extension du moteur d'exécution.
-- Optimisation des performances.
-- Support de nouveaux modèles d'embedding.
-- Monitoring avancé.
+- ✅ Livrable 1 — Architecture
+- ✅ Livrable 2 — Executor
+- ✅ Livrable 3 — Recherche Hybride
+- ✅ Livrable 4 — Base documentaire ChromaDB
+- ✅ Livrable 5 — Sécurité & Évaluation
+- ✅ Livrable 6 — Intégration complète
 
 ---
 
 # 👨‍💻 Auteur
 
-**Ihssane Moutchou**
+**Ihssane MOUTCHOU**
 
 Stage Ingénieur — EMSI
 
-Encadrante : **Pr. Zineb Hidila**
+Module Action pour Agent RAG
 
 2026
