@@ -5,3 +5,5 @@ numpy
 pandas
 pytest
 python-multipart
+chromadb==1.5.9
+sentence-transformers==5.6.0

@@ -4,3 +4,9 @@ __pycache__/
 .vscode/
 .idea/
 .env
+
+# Livrable 4 — Base documentaire (générée par demo_database.py)
+# La base Chroma et l'archive ne doivent JAMAIS être commitées :
+# le binôme les reçoit par le zip exports/base_documentaire_v1.zip.
+/storage/
+/exports/
