@@ -1,0 +1,15 @@
+{
+  "threshold": 3,
+  "category_weights": {
+    "prompt_injection": 1.0,
+    "instruction_bypass": 1.0,
+    "hidden_instructions": 1.0,
+    "malicious": 1.0,
+    "suspicious": 1.0
+  },
+  "disabled_rules": [],
+  "logging": {
+    "enabled": true,
+    "log_file": "logs/ethical_filter.jsonl"
+  }
+}
