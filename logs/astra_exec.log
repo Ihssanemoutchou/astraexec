@@ -96,3 +96,1969 @@
 2026-07-28 23:41:32,980 | INFO | START | FusionSearch
 2026-07-28 23:41:32,980 | INFO | END | FusionSearch
 2026-07-28 23:41:32,988 | INFO | EVENT | TEST | Message
+2026-08-02 14:31:35,347 | INFO | SUCCESS | Tool=test_tool | Time=0.0013s
+2026-08-02 14:31:35,352 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-08-02 14:31:35,356 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 14:31:35,359 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 14:31:35,375 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-08-02 14:31:35,378 | ERROR | ERROR | Time=0.0400s | Test error
+2026-08-02 14:31:35,382 | INFO | Info message
+2026-08-02 14:31:35,387 | WARNING | Warning message
+2026-08-02 14:31:35,391 | INFO | START | FusionSearch
+2026-08-02 14:31:35,392 | INFO | END | FusionSearch
+2026-08-02 14:31:35,395 | INFO | EVENT | TEST | Message
+2026-08-02 14:50:21,732 | INFO | SUCCESS | Tool=test_tool | Time=0.0009s
+2026-08-02 14:50:21,737 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-08-02 14:50:21,741 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 14:50:21,745 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 14:50:21,767 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-08-02 14:50:21,774 | ERROR | ERROR | Time=0.0400s | Test error
+2026-08-02 14:50:21,777 | INFO | Info message
+2026-08-02 14:50:21,780 | WARNING | Warning message
+2026-08-02 14:50:21,783 | INFO | START | FusionSearch
+2026-08-02 14:50:21,783 | INFO | END | FusionSearch
+2026-08-02 14:50:21,786 | INFO | EVENT | TEST | Message
+2026-08-02 15:35:37,195 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:35:37,197 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 15:35:37,197 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:35:37,197 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:35:37,197 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:35:37,197 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 15:35:37,197 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 15:35:37,197 | ERROR | ERROR | Time=0.0000s | Le nom de l'outil doit être une chaîne.
+2026-08-02 15:35:37,198 | ERROR | ERROR | Time=0.0000s | Les paramètres doivent être un dictionnaire.
+2026-08-02 15:35:37,199 | ERROR | ERROR | Time=0.0017s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,200 | ERROR | ERROR | Time=0.0000s | L'outil '' n'existe pas.
+2026-08-02 15:35:37,200 | ERROR | ERROR | Time=0.0000s | boom
+2026-08-02 15:35:37,200 | ERROR | ERROR | Time=0.0000s | Paramètre obligatoire manquant : query
+2026-08-02 15:35:37,200 | ERROR | ERROR | Time=0.0000s | Le paramètre 'query' doit être de type string, reçu : int
+2026-08-02 15:35:37,200 | ERROR | ERROR | Time=0.0000s | Le paramètre 'query' doit contenir au moins 2 caractère(s)
+2026-08-02 15:35:37,200 | ERROR | ERROR | Time=0.0000s | Le paramètre 'query' doit contenir au maximum 50 caractère(s)
+2026-08-02 15:35:37,200 | INFO | SUCCESS | Tool=schema_tool | Time=0.0000s
+2026-08-02 15:35:37,200 | ERROR | ERROR | Time=0.0000s | Prompt Injection détectée.
+2026-08-02 15:35:37,201 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,201 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,201 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,201 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,201 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,201 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,201 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,201 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,202 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,202 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,202 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,202 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,202 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,202 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,202 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,202 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,202 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,202 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,202 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,203 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,203 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,203 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,203 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,203 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:35:37,203 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,204 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,204 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,204 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,204 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,204 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,204 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,204 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,204 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,204 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,204 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,205 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,205 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,205 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,205 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,205 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,205 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,205 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,205 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,205 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,205 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,206 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,206 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,206 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,206 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,206 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,206 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,206 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:35:37,206 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,206 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,206 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,206 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,206 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,206 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,207 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,207 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,207 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,207 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:35:37,207 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,014 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:38:12,020 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 15:38:12,024 | ERROR | ERROR | Time=0.0005s | Une action doit être un dictionnaire.
+2026-08-02 15:38:12,028 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:38:12,031 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:38:12,036 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 15:38:12,042 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 15:38:12,047 | ERROR | ERROR | Time=0.0000s | Le nom de l'outil doit être une chaîne.
+2026-08-02 15:38:12,051 | ERROR | ERROR | Time=0.0000s | Les paramètres doivent être un dictionnaire.
+2026-08-02 15:38:12,055 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:38:12,060 | ERROR | ERROR | Time=0.0016s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,064 | ERROR | ERROR | Time=0.0001s | L'outil '' n'existe pas.
+2026-08-02 15:38:12,066 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,069 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,072 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 15:38:12,076 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 15:38:12,079 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 15:38:12,083 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 15:38:12,083 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,085 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : query
+2026-08-02 15:38:12,088 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit être de type string, reçu : int
+2026-08-02 15:38:12,092 | ERROR | ERROR | Time=0.0001s | Le paramètre 'mode' doit être l'une des valeurs : ['fast', 'precise'], reçu : interdit
+2026-08-02 15:38:12,096 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au moins 2 caractère(s)
+2026-08-02 15:38:12,099 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au maximum 50 caractère(s)
+2026-08-02 15:38:12,103 | INFO | SUCCESS | Tool=schema_tool | Time=0.0001s
+2026-08-02 15:38:12,105 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 15:38:12,110 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 15:38:12,114 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 15:38:12,114 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,117 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,117 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,117 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,117 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,117 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,120 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,120 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,120 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,120 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,120 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,123 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,123 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,124 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,124 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,124 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,124 | INFO | SUCCESS | Tool=second | Time=0.0001s
+2026-08-02 15:38:12,127 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,128 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,128 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,128 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,128 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,128 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,128 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,128 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,129 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,129 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,129 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,129 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,130 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,130 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,130 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,130 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,131 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,131 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,131 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,132 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,132 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,132 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,132 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,133 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,133 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,134 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,134 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,135 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,135 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,135 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,135 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,136 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,136 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,136 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,136 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,137 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,137 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,137 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,137 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,138 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,138 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,138 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,138 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,138 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,138 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,139 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,139 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,139 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,141 | INFO | SUCCESS | Tool=dummy | Time=0.0012s
+2026-08-02 15:38:12,143 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,148 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,148 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,148 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,149 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,149 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,149 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,149 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,150 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,150 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,150 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,151 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,151 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,151 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,151 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,152 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,152 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,152 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,152 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,152 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,152 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,152 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,153 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,153 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,153 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,153 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,153 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,154 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,154 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,154 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,154 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,154 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,154 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,154 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,155 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,155 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,155 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,155 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,155 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,155 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,156 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,156 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,156 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,156 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,157 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,157 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,158 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,158 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,158 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,158 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,158 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,158 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:38:12,162 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,163 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,163 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,163 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,163 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,164 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,164 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,164 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,164 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,164 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,165 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:38:12,168 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,168 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,168 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,168 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,169 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,169 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,169 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,169 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,169 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,170 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:38:12,170 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:19,401 | INFO | SUCCESS | Tool=test_tool | Time=0.0011s
+2026-08-02 15:39:19,405 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-08-02 15:39:19,409 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 15:39:19,413 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:39:19,437 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-08-02 15:39:19,441 | ERROR | ERROR | Time=0.0400s | Test error
+2026-08-02 15:39:19,445 | INFO | Info message
+2026-08-02 15:39:19,448 | WARNING | Warning message
+2026-08-02 15:39:19,451 | INFO | START | FusionSearch
+2026-08-02 15:39:19,452 | INFO | END | FusionSearch
+2026-08-02 15:39:19,454 | INFO | EVENT | TEST | Message
+2026-08-02 15:39:22,181 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:39:22,188 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 15:39:22,193 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:39:22,199 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:39:22,204 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:39:22,207 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 15:39:22,211 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 15:39:22,214 | ERROR | ERROR | Time=0.0000s | Le nom de l'outil doit être une chaîne.
+2026-08-02 15:39:22,218 | ERROR | ERROR | Time=0.0000s | Les paramètres doivent être un dictionnaire.
+2026-08-02 15:39:22,222 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 15:39:22,227 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,232 | ERROR | ERROR | Time=0.0001s | L'outil '' n'existe pas.
+2026-08-02 15:39:22,236 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,242 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,247 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 15:39:22,253 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 15:39:22,257 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 15:39:22,263 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 15:39:22,264 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,268 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : query
+2026-08-02 15:39:22,275 | ERROR | ERROR | Time=0.0002s | Le paramètre 'query' doit être de type string, reçu : int
+2026-08-02 15:39:22,280 | ERROR | ERROR | Time=0.0001s | Le paramètre 'mode' doit être l'une des valeurs : ['fast', 'precise'], reçu : interdit
+2026-08-02 15:39:22,285 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au moins 2 caractère(s)
+2026-08-02 15:39:22,290 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au maximum 50 caractère(s)
+2026-08-02 15:39:22,295 | INFO | SUCCESS | Tool=schema_tool | Time=0.0001s
+2026-08-02 15:39:22,298 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 15:39:22,301 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 15:39:22,304 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 15:39:22,304 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,309 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,310 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,310 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,310 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,310 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,313 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,314 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,314 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,314 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,314 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,317 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,318 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,318 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,318 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,318 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,318 | INFO | SUCCESS | Tool=second | Time=0.0000s
+2026-08-02 15:39:22,321 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,321 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,321 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,322 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,322 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,322 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,322 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,322 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,322 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,322 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,322 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,323 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,323 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,323 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,323 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,323 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,323 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,323 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,324 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,324 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,324 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,324 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,324 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,324 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,325 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,325 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,325 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,326 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,326 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,327 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,327 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,327 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,327 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,328 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,328 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,328 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,328 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,328 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,329 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,329 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,329 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,329 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,330 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,330 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,330 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,330 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,330 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,331 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,331 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,331 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,336 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,336 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,336 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,336 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,336 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,337 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,337 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,337 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,337 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,337 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,337 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,337 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,337 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,338 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,338 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,338 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,338 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,338 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,339 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,339 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,339 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,339 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,339 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,340 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,340 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,340 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,340 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,341 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,341 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,342 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,342 | INFO | SUCCESS | Tool=dummy | Time=0.0005s
+2026-08-02 15:39:22,343 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,343 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,343 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,343 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,344 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,344 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 15:39:22,344 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,344 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,344 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,345 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,345 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,345 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,345 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,345 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,345 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,346 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,346 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,346 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,346 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,346 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,350 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,350 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,350 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,350 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,350 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,350 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,350 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,351 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,351 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,351 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,351 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:39:22,354 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,354 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,355 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,355 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,355 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,355 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,355 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,355 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,355 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,355 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:39:22,356 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 15:56:50,558 | INFO | SUCCESS | Tool=echo_tool | Time=0.0012s
+2026-08-02 15:56:50,558 | INFO | SUCCESS | Tool=echo_tool | Time=0.0001s
+2026-08-02 15:56:50,559 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,559 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,559 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,559 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,559 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,559 | INFO | SUCCESS | Tool=echo_tool | Time=0.0001s
+2026-08-02 15:56:50,559 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,559 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,559 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,560 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,560 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,560 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,560 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,560 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,560 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,560 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,560 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,560 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 15:56:50,561 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,561 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,561 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,561 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,561 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,561 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,561 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,561 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,561 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,562 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,562 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,562 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,562 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,562 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,562 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,562 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,562 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,562 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,562 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 15:56:50,562 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:28,821 | INFO | SUCCESS | Tool=test_tool | Time=0.0012s
+2026-08-02 16:01:28,826 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-08-02 16:01:28,832 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 16:01:28,836 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 16:01:28,850 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-08-02 16:01:28,853 | ERROR | ERROR | Time=0.0400s | Test error
+2026-08-02 16:01:28,855 | INFO | Info message
+2026-08-02 16:01:28,858 | WARNING | Warning message
+2026-08-02 16:01:28,863 | INFO | START | FusionSearch
+2026-08-02 16:01:28,864 | INFO | END | FusionSearch
+2026-08-02 16:01:28,869 | INFO | EVENT | TEST | Message
+2026-08-02 16:01:31,346 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 16:01:31,349 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 16:01:31,352 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 16:01:31,356 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 16:01:31,359 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 16:01:31,361 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 16:01:31,365 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 16:01:31,368 | ERROR | ERROR | Time=0.0000s | Le nom de l'outil doit être une chaîne.
+2026-08-02 16:01:31,371 | ERROR | ERROR | Time=0.0000s | Les paramètres doivent être un dictionnaire.
+2026-08-02 16:01:31,374 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 16:01:31,379 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,384 | ERROR | ERROR | Time=0.0001s | L'outil '' n'existe pas.
+2026-08-02 16:01:31,389 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,394 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,398 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 16:01:31,401 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 16:01:31,404 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 16:01:31,407 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 16:01:31,407 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:01:31,410 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : query
+2026-08-02 16:01:31,414 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit être de type string, reçu : int
+2026-08-02 16:01:31,417 | ERROR | ERROR | Time=0.0001s | Le paramètre 'mode' doit être l'une des valeurs : ['fast', 'precise'], reçu : interdit
+2026-08-02 16:01:31,420 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au moins 2 caractère(s)
+2026-08-02 16:01:31,423 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au maximum 50 caractère(s)
+2026-08-02 16:01:31,428 | INFO | SUCCESS | Tool=schema_tool | Time=0.0001s
+2026-08-02 16:01:31,432 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 16:01:31,437 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 16:01:31,443 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 16:01:31,443 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,446 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,447 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,447 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,447 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,447 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,450 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,450 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,450 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,451 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,451 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,454 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,454 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,454 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,454 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,454 | ERROR | ERROR | Time=0.0002s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,455 | INFO | SUCCESS | Tool=second | Time=0.0001s
+2026-08-02 16:01:31,458 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:01:31,459 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,459 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,459 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,459 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,459 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,459 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,460 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,460 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,460 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,460 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,460 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,460 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,460 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,461 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,461 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,461 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,461 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,461 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,461 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,461 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,462 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,462 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,462 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,462 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,462 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,462 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,462 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,462 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,463 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,463 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,463 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,463 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,463 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,463 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,463 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,464 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,464 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,464 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,464 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,464 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,464 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,464 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,464 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,465 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,465 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,465 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,465 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,465 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,465 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,469 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:01:31,469 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,469 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,469 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,469 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,469 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,469 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,470 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,470 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,470 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,470 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,470 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,470 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,471 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,471 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,471 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,471 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,472 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,472 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:01:31,472 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,472 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:01:31,473 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,473 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,473 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,473 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,473 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,474 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,474 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,474 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:01:31,474 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,475 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:01:31,475 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,475 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,475 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,475 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,476 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,476 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,476 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,476 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:01:31,477 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,477 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,477 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,477 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:01:31,477 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,478 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,478 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,478 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:01:31,478 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,479 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,479 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,479 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:01:31,484 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,485 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,485 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,485 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,485 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,486 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,486 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,486 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,487 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,487 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,487 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:01:31,491 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,492 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,492 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,492 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,492 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,492 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,493 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,493 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,493 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,493 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:01:31,493 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:23,548 | INFO | SUCCESS | Tool=test_tool | Time=0.0010s
+2026-08-02 16:05:23,552 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-08-02 16:05:23,555 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 16:05:23,559 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 16:05:23,587 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-08-02 16:05:23,593 | ERROR | ERROR | Time=0.0400s | Test error
+2026-08-02 16:05:23,598 | INFO | Info message
+2026-08-02 16:05:23,603 | WARNING | Warning message
+2026-08-02 16:05:23,608 | INFO | START | FusionSearch
+2026-08-02 16:05:23,608 | INFO | END | FusionSearch
+2026-08-02 16:05:23,614 | INFO | EVENT | TEST | Message
+2026-08-02 16:05:26,240 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 16:05:26,245 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 16:05:26,251 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 16:05:26,257 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 16:05:26,264 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 16:05:26,268 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 16:05:26,271 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 16:05:26,274 | ERROR | ERROR | Time=0.0000s | Le nom de l'outil doit être une chaîne.
+2026-08-02 16:05:26,279 | ERROR | ERROR | Time=0.0000s | Les paramètres doivent être un dictionnaire.
+2026-08-02 16:05:26,285 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 16:05:26,289 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,294 | ERROR | ERROR | Time=0.0001s | L'outil '' n'existe pas.
+2026-08-02 16:05:26,301 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,305 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,308 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 16:05:26,311 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 16:05:26,316 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 16:05:26,319 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 16:05:26,320 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,322 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : query
+2026-08-02 16:05:26,325 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit être de type string, reçu : int
+2026-08-02 16:05:26,329 | ERROR | ERROR | Time=0.0002s | Le paramètre 'mode' doit être l'une des valeurs : ['fast', 'precise'], reçu : interdit
+2026-08-02 16:05:26,334 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au moins 2 caractère(s)
+2026-08-02 16:05:26,339 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au maximum 50 caractère(s)
+2026-08-02 16:05:26,343 | INFO | SUCCESS | Tool=schema_tool | Time=0.0001s
+2026-08-02 16:05:26,348 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 16:05:26,352 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 16:05:26,356 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 16:05:26,357 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,360 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,360 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,360 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,361 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,361 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,365 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,365 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,365 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,366 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,366 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,369 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,369 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,369 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,369 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,369 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,369 | INFO | SUCCESS | Tool=second | Time=0.0000s
+2026-08-02 16:05:26,372 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,373 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,373 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,373 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,373 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,373 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,373 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,373 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,373 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,374 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,374 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,374 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,374 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,374 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,374 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,374 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,374 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,375 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,375 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,375 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,375 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,375 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,375 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,375 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,376 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,376 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,376 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,376 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,376 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,376 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,376 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,376 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,377 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,377 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,377 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,377 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,378 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,379 | ERROR | ERROR | Time=0.0003s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,379 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,380 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,380 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,381 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,381 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,381 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,382 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,382 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,382 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,382 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,382 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,383 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,387 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,388 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,388 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,388 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,388 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,389 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,389 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,389 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,389 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,389 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,390 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,390 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,390 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,390 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,390 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,391 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,391 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,391 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,391 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,392 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,392 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,392 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,392 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,392 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,393 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,393 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,393 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,393 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,393 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,394 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,394 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,395 | ERROR | ERROR | Time=0.0002s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,395 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,395 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,396 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,396 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,396 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,396 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,396 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,396 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,397 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,397 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,397 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,397 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,397 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,397 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,397 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,398 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,398 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 16:05:26,398 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,398 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,402 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,402 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,402 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,403 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,403 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,403 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,403 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,403 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,403 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,403 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,404 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:26,407 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,408 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,408 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,408 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,408 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,408 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,408 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,408 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,409 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,409 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:26,409 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 16:05:43,243 | INFO | SUCCESS | Tool=echo_tool | Time=0.0012s
+2026-08-02 16:05:43,244 | INFO | SUCCESS | Tool=echo_tool | Time=0.0001s
+2026-08-02 16:05:43,244 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,244 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,244 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,244 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,244 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,244 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,244 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,245 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,245 | INFO | SUCCESS | Tool=echo_tool | Time=0.0001s
+2026-08-02 16:05:43,245 | INFO | SUCCESS | Tool=echo_tool | Time=0.0001s
+2026-08-02 16:05:43,245 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,245 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,245 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,246 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,246 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,246 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,246 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,246 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:05:43,247 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,247 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,247 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,247 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,247 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,247 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,247 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,247 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,247 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,248 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,248 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,248 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,248 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,248 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,248 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,248 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,248 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,248 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,248 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:05:43,248 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,826 | INFO | SUCCESS | Tool=echo_tool | Time=0.0010s
+2026-08-02 16:11:55,826 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,826 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,826 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,826 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,826 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,826 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,827 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,827 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,827 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,827 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,827 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,827 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,827 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,827 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,827 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,827 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,827 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,827 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,828 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:11:55,828 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,828 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,828 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,828 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,828 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,828 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,828 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,828 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,829 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,829 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,829 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,829 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,829 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,829 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,829 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,829 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,829 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,829 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,829 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:11:55,830 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,796 | INFO | SUCCESS | Tool=echo_tool | Time=0.0012s
+2026-08-02 16:13:29,796 | INFO | SUCCESS | Tool=echo_tool | Time=0.0001s
+2026-08-02 16:13:29,796 | INFO | SUCCESS | Tool=echo_tool | Time=0.0001s
+2026-08-02 16:13:29,797 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,797 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,797 | INFO | SUCCESS | Tool=echo_tool | Time=0.0001s
+2026-08-02 16:13:29,797 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,797 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,797 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,797 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,797 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,798 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,798 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,798 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,798 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,798 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,798 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,798 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,798 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,798 | INFO | SUCCESS | Tool=echo_tool | Time=0.0000s
+2026-08-02 16:13:29,798 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,799 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,799 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,799 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,799 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,799 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,799 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,799 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,799 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,799 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,799 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,800 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,800 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,800 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,800 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,800 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,800 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,800 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,800 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 16:13:29,800 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:41,896 | INFO | SUCCESS | Tool=test_tool | Time=0.0013s
+2026-08-02 17:42:41,904 | ERROR | ERROR | Time=0.0009s | L'outil 'nonexistent' n'existe pas.
+2026-08-02 17:42:41,910 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 17:42:41,917 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 17:42:41,945 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-08-02 17:42:41,952 | ERROR | ERROR | Time=0.0400s | Test error
+2026-08-02 17:42:41,958 | INFO | Info message
+2026-08-02 17:42:41,964 | WARNING | Warning message
+2026-08-02 17:42:41,971 | INFO | START | FusionSearch
+2026-08-02 17:42:41,972 | INFO | END | FusionSearch
+2026-08-02 17:42:41,978 | INFO | EVENT | TEST | Message
+2026-08-02 17:42:45,805 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 17:42:45,811 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 17:42:45,818 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 17:42:45,824 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 17:42:45,830 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 17:42:45,836 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 17:42:45,841 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 17:42:45,847 | ERROR | ERROR | Time=0.0000s | Le nom de l'outil doit être une chaîne.
+2026-08-02 17:42:45,853 | ERROR | ERROR | Time=0.0000s | Les paramètres doivent être un dictionnaire.
+2026-08-02 17:42:45,859 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 17:42:45,867 | ERROR | ERROR | Time=0.0002s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:45,875 | ERROR | ERROR | Time=0.0001s | L'outil '' n'existe pas.
+2026-08-02 17:42:45,882 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:45,889 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:45,895 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 17:42:45,902 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 17:42:45,908 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 17:42:45,915 | ERROR | ERROR | Time=0.0002s | boom
+2026-08-02 17:42:45,915 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:45,922 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : query
+2026-08-02 17:42:45,928 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit être de type string, reçu : int
+2026-08-02 17:42:45,934 | ERROR | ERROR | Time=0.0002s | Le paramètre 'mode' doit être l'une des valeurs : ['fast', 'precise'], reçu : interdit
+2026-08-02 17:42:45,940 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au moins 2 caractère(s)
+2026-08-02 17:42:45,946 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au maximum 50 caractère(s)
+2026-08-02 17:42:45,953 | INFO | SUCCESS | Tool=schema_tool | Time=0.0001s
+2026-08-02 17:42:45,962 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 17:42:45,969 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 17:42:45,976 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 17:42:45,976 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:45,984 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:45,984 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:45,985 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:45,985 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:45,986 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:45,994 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:45,994 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:45,994 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:45,995 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:45,995 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,001 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,002 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,002 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,003 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,003 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,003 | INFO | SUCCESS | Tool=second | Time=0.0001s
+2026-08-02 17:42:46,012 | INFO | SUCCESS | Tool=dummy | Time=0.0002s
+2026-08-02 17:42:46,012 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,013 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,013 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,013 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,014 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,014 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,014 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,014 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,014 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,015 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,015 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,015 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,016 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,016 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,016 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,016 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,017 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,017 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,017 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,018 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,018 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,018 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,018 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,019 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,019 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,019 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,020 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,020 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,020 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,020 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,021 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,021 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,021 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,022 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,022 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,022 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,022 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,023 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,023 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,023 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,023 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,024 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,024 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,024 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,024 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,025 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,025 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,025 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,025 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,031 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,032 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,032 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,032 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,032 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:42:46,033 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,033 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,033 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,033 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:42:46,034 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,034 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:42:46,034 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,034 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:42:46,034 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,034 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:42:46,034 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,035 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:42:46,035 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,035 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:42:46,035 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,035 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:42:46,036 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,036 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:42:46,036 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,036 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,036 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,037 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,037 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,037 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,038 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,038 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,038 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,039 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,039 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,040 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,040 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,041 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,041 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,041 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,042 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,042 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,042 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,042 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,043 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,043 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,043 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,044 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,044 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,045 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,045 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,045 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,052 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,053 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,053 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,054 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,054 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,055 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,055 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,056 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,056 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,056 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,057 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:42:46,062 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,063 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,063 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,064 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,064 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,064 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,064 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,065 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,065 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,065 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:42:46,065 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:44:45,408 | INFO | SUCCESS | Tool=test_tool | Time=0.0012s
+2026-08-02 17:44:45,414 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-08-02 17:44:45,419 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 17:44:45,423 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 17:44:45,446 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-08-02 17:44:45,450 | ERROR | ERROR | Time=0.0400s | Test error
+2026-08-02 17:44:45,454 | INFO | Info message
+2026-08-02 17:44:45,458 | WARNING | Warning message
+2026-08-02 17:44:45,461 | INFO | START | FusionSearch
+2026-08-02 17:44:45,461 | INFO | END | FusionSearch
+2026-08-02 17:44:45,466 | INFO | EVENT | TEST | Message
+2026-08-02 17:44:48,139 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 17:44:48,145 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 17:44:48,151 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 17:44:48,155 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 17:44:48,160 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 17:44:48,167 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-02 17:44:48,173 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-02 17:44:48,178 | ERROR | ERROR | Time=0.0000s | Le nom de l'outil doit être une chaîne.
+2026-08-02 17:44:48,183 | ERROR | ERROR | Time=0.0000s | Les paramètres doivent être un dictionnaire.
+2026-08-02 17:44:48,187 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-02 17:44:48,191 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,194 | ERROR | ERROR | Time=0.0001s | L'outil '' n'existe pas.
+2026-08-02 17:44:48,199 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,205 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,211 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 17:44:48,220 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 17:44:48,226 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 17:44:48,232 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-02 17:44:48,232 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,236 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : query
+2026-08-02 17:44:48,240 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit être de type string, reçu : int
+2026-08-02 17:44:48,244 | ERROR | ERROR | Time=0.0001s | Le paramètre 'mode' doit être l'une des valeurs : ['fast', 'precise'], reçu : interdit
+2026-08-02 17:44:48,251 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au moins 2 caractère(s)
+2026-08-02 17:44:48,255 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au maximum 50 caractère(s)
+2026-08-02 17:44:48,260 | INFO | SUCCESS | Tool=schema_tool | Time=0.0001s
+2026-08-02 17:44:48,266 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 17:44:48,271 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 17:44:48,276 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-02 17:44:48,276 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,280 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,280 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,281 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,281 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,281 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,285 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,285 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,285 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,286 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,286 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,290 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,290 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,290 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,291 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,291 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,291 | INFO | SUCCESS | Tool=second | Time=0.0000s
+2026-08-02 17:44:48,295 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:44:48,295 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,295 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,296 | ERROR | ERROR | Time=0.0005s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,296 | INFO | SUCCESS | Tool=dummy | Time=0.0002s
+2026-08-02 17:44:48,297 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,298 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:44:48,298 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,298 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,298 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,298 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,299 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,299 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,299 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,299 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,299 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,299 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,299 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,299 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,300 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,300 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,300 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,300 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,300 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,300 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,300 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,301 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,301 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,301 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,301 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,301 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,301 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,301 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,302 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,302 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,302 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,302 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,302 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,302 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,302 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,302 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,303 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,303 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,303 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,303 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,303 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,304 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:44:48,304 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,304 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:44:48,304 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,309 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:44:48,309 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,309 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,309 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,309 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,310 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,310 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,310 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,310 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,310 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,310 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,310 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,311 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,311 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,311 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,311 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,311 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,311 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,311 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,311 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,312 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,312 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,312 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,313 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,313 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:44:48,313 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,314 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-02 17:44:48,314 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,314 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,314 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,315 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,315 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,315 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,315 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,315 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,315 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,315 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,316 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,316 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,316 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,316 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,316 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,316 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,316 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,316 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,317 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,317 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,317 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,317 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,317 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,317 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,321 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,322 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,322 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,322 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,322 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,322 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,322 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,322 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,323 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,323 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,323 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-02 17:44:48,326 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,327 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,327 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,327 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,327 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,327 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,327 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,327 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,327 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,328 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-02 17:44:48,328 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:25:06,917 | INFO | SUCCESS | Tool=slow | Time=0.5036s
+2026-08-06 00:25:06,985 | ERROR | ERROR | Time=0.0588s | L'outil 'slow_timeout' a dépassé le délai de 0.05s.
+2026-08-06 00:25:07,042 | ERROR | ERROR | Time=0.0543s | L'outil 'slow_default' a dépassé le délai de 0.05s.
+2026-08-06 00:25:07,103 | ERROR | ERROR | Time=0.0583s | L'outil 'slow_contract' a dépassé le délai de 0.05s.
+2026-08-06 00:25:07,182 | ERROR | ERROR | Time=0.0521s | L'outil 'slow_audit' a dépassé le délai de 0.05s.
+2026-08-06 00:25:07,247 | INFO | SUCCESS | Tool=flaky | Time=0.0309s
+2026-08-06 00:25:07,282 | ERROR | ERROR | Time=0.0311s | transient failure
+2026-08-06 00:25:07,286 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:25:07,291 | ERROR | ERROR | Time=0.0002s | transient failure
+2026-08-06 00:25:07,292 | ERROR | ERROR | Time=0.0002s | transient failure
+2026-08-06 00:25:07,292 | ERROR | ERROR | Time=0.0001s | L'outil 'fragile' est indisponible : circuit breaker ouvert.
+2026-08-06 00:25:07,296 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:25:07,297 | ERROR | ERROR | Time=0.0001s | L'outil 'flaky2' est indisponible : circuit breaker ouvert.
+2026-08-06 00:25:07,357 | INFO | SUCCESS | Tool=flaky2 | Time=0.0002s
+2026-08-06 00:25:07,363 | INFO | SUCCESS | Tool=echo | Time=0.0002s
+2026-08-06 00:25:07,364 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:25:07,368 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:25:07,369 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:25:07,374 | INFO | SUCCESS | Tool=echo | Time=0.0002s
+2026-08-06 00:25:07,375 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:25:07,380 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:25:07,381 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:25:07,382 | INFO | SUCCESS | Tool=echo3 | Time=0.0001s
+2026-08-06 00:25:07,383 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:25:07,386 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:25:07,387 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:25:07,388 | INFO | SUCCESS | Tool=echo3 | Time=0.0001s
+2026-08-06 00:25:07,389 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:25:07,695 | INFO | SUCCESS | Tool=echo | Time=0.3007s
+2026-08-06 00:25:07,696 | INFO | SUCCESS | Tool=echo2 | Time=0.3005s
+2026-08-06 00:25:07,801 | INFO | SUCCESS | Tool=echo | Time=0.1005s
+2026-08-06 00:25:07,902 | INFO | SUCCESS | Tool=echo2 | Time=0.1003s
+2026-08-06 00:25:07,931 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:25:07,932 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:25:07,936 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:25:07,937 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:25:07,938 | INFO | SUCCESS | Tool=echo3 | Time=0.0001s
+2026-08-06 00:25:07,943 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:25:07,944 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost2' n'existe pas.
+2026-08-06 00:25:07,948 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:25:07,949 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:25:07,952 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:25:07,960 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:25:07,993 | INFO | SUCCESS | Tool=sec | Time=0.0001s
+2026-08-06 00:25:07,996 | INFO | SUCCESS | Tool=sec | Time=0.0001s
+2026-08-06 00:25:08,000 | ERROR | ERROR | Time=0.0001s | Permission refusée : l'outil 'sec' requiert ['retrieval'], non inclus dans les permissions accordées : ['write'].
+2026-08-06 00:25:08,003 | INFO | SUCCESS | Tool=open | Time=0.0001s
+2026-08-06 00:25:08,005 | INFO | SUCCESS | Tool=budget_tool | Time=0.0001s
+2026-08-06 00:25:08,006 | INFO | SUCCESS | Tool=budget_tool | Time=0.0000s
+2026-08-06 00:25:08,006 | ERROR | ERROR | Time=0.0000s | Budget d'actions épuisé : maximum 2 action(s) autorisée(s).
+2026-08-06 00:25:08,009 | INFO | SUCCESS | Tool=unlimited | Time=0.0001s
+2026-08-06 00:25:08,009 | INFO | SUCCESS | Tool=unlimited | Time=0.0001s
+2026-08-06 00:25:08,010 | INFO | SUCCESS | Tool=unlimited | Time=0.0001s
+2026-08-06 00:25:08,010 | INFO | SUCCESS | Tool=unlimited | Time=0.0000s
+2026-08-06 00:25:08,010 | INFO | SUCCESS | Tool=unlimited | Time=0.0000s
+2026-08-06 00:25:08,016 | INFO | SUCCESS | Tool=audit_tool | Time=0.0001s
+2026-08-06 00:25:08,047 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:25:08,077 | INFO | SUCCESS | Tool=uid_tool | Time=0.0001s
+2026-08-06 00:25:08,079 | INFO | SUCCESS | Tool=uid_tool | Time=0.0001s
+2026-08-06 00:25:08,111 | INFO | SUCCESS | Tool=plan_tool | Time=0.0001s
+2026-08-06 00:25:08,139 | INFO | SUCCESS | Tool=json_tool | Time=0.0001s
+2026-08-06 00:25:08,169 | INFO | SUCCESS | Tool=no_audit | Time=0.0001s
+2026-08-06 00:25:08,172 | INFO | SUCCESS | Tool=schema_out | Time=0.0001s
+2026-08-06 00:25:08,176 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : count
+2026-08-06 00:25:08,179 | INFO | SUCCESS | Tool=no_schema | Time=0.0001s
+2026-08-06 00:25:08,183 | INFO | SUCCESS | Tool=contract | Time=0.0002s
+2026-08-06 00:25:08,186 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:25:08,195 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : query
+2026-08-06 00:25:08,225 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : count
+2026-08-06 00:25:08,251 | ERROR | ERROR | Time=0.0001s | Permission refusée : l'outil 'guarded' requiert ['admin'], non inclus dans les permissions accordées : ['user'].
+2026-08-06 00:26:55,879 | INFO | SUCCESS | Tool=test_tool | Time=0.0008s
+2026-08-06 00:26:55,882 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-08-06 00:26:55,886 | ERROR | ERROR | Time=0.0001s | Champ obligatoire manquant : parameters
+2026-08-06 00:26:55,890 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-06 00:26:55,905 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-08-06 00:26:55,909 | ERROR | ERROR | Time=0.0400s | Test error
+2026-08-06 00:26:55,913 | INFO | Info message
+2026-08-06 00:26:55,916 | WARNING | Warning message
+2026-08-06 00:26:55,919 | INFO | START | FusionSearch
+2026-08-06 00:26:55,919 | INFO | END | FusionSearch
+2026-08-06 00:26:55,922 | INFO | EVENT | TEST | Message
+2026-08-06 00:26:55,937 | INFO | SUCCESS | Tool=sec | Time=0.0001s
+2026-08-06 00:26:55,940 | INFO | SUCCESS | Tool=sec | Time=0.0001s
+2026-08-06 00:26:55,945 | ERROR | ERROR | Time=0.0004s | Permission refusée : l'outil 'sec' requiert ['retrieval'], non inclus dans les permissions accordées : ['write'].
+2026-08-06 00:26:55,948 | INFO | SUCCESS | Tool=open | Time=0.0001s
+2026-08-06 00:26:55,951 | INFO | SUCCESS | Tool=budget_tool | Time=0.0001s
+2026-08-06 00:26:55,951 | INFO | SUCCESS | Tool=budget_tool | Time=0.0000s
+2026-08-06 00:26:55,951 | ERROR | ERROR | Time=0.0000s | Budget d'actions épuisé : maximum 2 action(s) autorisée(s).
+2026-08-06 00:26:55,955 | INFO | SUCCESS | Tool=unlimited | Time=0.0001s
+2026-08-06 00:26:55,956 | INFO | SUCCESS | Tool=unlimited | Time=0.0000s
+2026-08-06 00:26:55,956 | INFO | SUCCESS | Tool=unlimited | Time=0.0001s
+2026-08-06 00:26:55,956 | INFO | SUCCESS | Tool=unlimited | Time=0.0000s
+2026-08-06 00:26:55,956 | INFO | SUCCESS | Tool=unlimited | Time=0.0000s
+2026-08-06 00:26:55,964 | INFO | SUCCESS | Tool=audit_tool | Time=0.0001s
+2026-08-06 00:26:55,990 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:26:56,017 | INFO | SUCCESS | Tool=uid_tool | Time=0.0001s
+2026-08-06 00:26:56,019 | INFO | SUCCESS | Tool=uid_tool | Time=0.0001s
+2026-08-06 00:26:56,045 | INFO | SUCCESS | Tool=plan_tool | Time=0.0001s
+2026-08-06 00:26:56,069 | INFO | SUCCESS | Tool=json_tool | Time=0.0001s
+2026-08-06 00:26:56,093 | INFO | SUCCESS | Tool=no_audit | Time=0.0001s
+2026-08-06 00:26:56,097 | INFO | SUCCESS | Tool=schema_out | Time=0.0001s
+2026-08-06 00:26:56,100 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : count
+2026-08-06 00:26:56,103 | INFO | SUCCESS | Tool=no_schema | Time=0.0001s
+2026-08-06 00:26:56,106 | INFO | SUCCESS | Tool=contract | Time=0.0001s
+2026-08-06 00:26:56,110 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:26:56,117 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : query
+2026-08-06 00:26:56,146 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : count
+2026-08-06 00:26:56,171 | ERROR | ERROR | Time=0.0001s | Permission refusée : l'outil 'guarded' requiert ['admin'], non inclus dans les permissions accordées : ['user'].
+2026-08-06 00:26:58,479 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:26:58,479 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:26:58,485 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:26:58,486 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:26:58,493 | INFO | SUCCESS | Tool=echo | Time=0.0002s
+2026-08-06 00:26:58,494 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:26:58,500 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:26:58,502 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:26:58,503 | INFO | SUCCESS | Tool=echo3 | Time=0.0001s
+2026-08-06 00:26:58,505 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:26:58,511 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:26:58,513 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:26:58,514 | INFO | SUCCESS | Tool=echo3 | Time=0.0001s
+2026-08-06 00:26:58,515 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:26:58,821 | INFO | SUCCESS | Tool=echo | Time=0.3008s
+2026-08-06 00:26:58,822 | INFO | SUCCESS | Tool=echo2 | Time=0.3005s
+2026-08-06 00:26:58,930 | INFO | SUCCESS | Tool=echo | Time=0.1003s
+2026-08-06 00:26:59,031 | INFO | SUCCESS | Tool=echo2 | Time=0.1002s
+2026-08-06 00:26:59,056 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:26:59,057 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:26:59,065 | INFO | SUCCESS | Tool=echo | Time=0.0002s
+2026-08-06 00:26:59,067 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:26:59,068 | INFO | SUCCESS | Tool=echo3 | Time=0.0001s
+2026-08-06 00:26:59,075 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:26:59,075 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost2' n'existe pas.
+2026-08-06 00:26:59,082 | INFO | SUCCESS | Tool=echo | Time=0.0002s
+2026-08-06 00:26:59,083 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:26:59,089 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:26:59,099 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:27:00,202 | INFO | SUCCESS | Tool=slow | Time=0.5002s
+2026-08-06 00:27:00,262 | ERROR | ERROR | Time=0.0565s | L'outil 'slow_timeout' a dépassé le délai de 0.05s.
+2026-08-06 00:27:00,332 | ERROR | ERROR | Time=0.0638s | L'outil 'slow_default' a dépassé le délai de 0.05s.
+2026-08-06 00:27:00,395 | ERROR | ERROR | Time=0.0583s | L'outil 'slow_contract' a dépassé le délai de 0.05s.
+2026-08-06 00:27:00,465 | ERROR | ERROR | Time=0.0622s | L'outil 'slow_audit' a dépassé le délai de 0.05s.
+2026-08-06 00:27:00,521 | INFO | SUCCESS | Tool=flaky | Time=0.0311s
+2026-08-06 00:27:00,555 | ERROR | ERROR | Time=0.0308s | transient failure
+2026-08-06 00:27:00,560 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:27:00,564 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:27:00,565 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:27:00,565 | ERROR | ERROR | Time=0.0000s | L'outil 'fragile' est indisponible : circuit breaker ouvert.
+2026-08-06 00:27:00,568 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:27:00,569 | ERROR | ERROR | Time=0.0001s | L'outil 'flaky2' est indisponible : circuit breaker ouvert.
+2026-08-06 00:27:00,629 | INFO | SUCCESS | Tool=flaky2 | Time=0.0001s
+2026-08-06 00:27:00,633 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-06 00:27:00,637 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-06 00:27:00,641 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-06 00:27:00,646 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-06 00:27:00,649 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-06 00:27:00,652 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-06 00:27:00,655 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-06 00:27:00,660 | ERROR | ERROR | Time=0.0000s | Le nom de l'outil doit être une chaîne.
+2026-08-06 00:27:00,664 | ERROR | ERROR | Time=0.0000s | Les paramètres doivent être un dictionnaire.
+2026-08-06 00:27:00,667 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-06 00:27:00,671 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,674 | ERROR | ERROR | Time=0.0001s | L'outil '' n'existe pas.
+2026-08-06 00:27:00,679 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,683 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,686 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-06 00:27:00,689 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-06 00:27:00,694 | ERROR | ERROR | Time=0.0002s | boom
+2026-08-06 00:27:00,698 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-06 00:27:00,698 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:27:00,701 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : query
+2026-08-06 00:27:00,704 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit être de type string, reçu : int
+2026-08-06 00:27:00,707 | ERROR | ERROR | Time=0.0001s | Le paramètre 'mode' doit être l'une des valeurs : ['fast', 'precise'], reçu : interdit
+2026-08-06 00:27:00,713 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au moins 2 caractère(s)
+2026-08-06 00:27:00,717 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au maximum 50 caractère(s)
+2026-08-06 00:27:00,720 | INFO | SUCCESS | Tool=schema_tool | Time=0.0001s
+2026-08-06 00:27:00,723 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-06 00:27:00,728 | ERROR | ERROR | Time=0.0002s | Prompt Injection détectée.
+2026-08-06 00:27:00,733 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-06 00:27:00,733 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:27:00,736 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,736 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,737 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,737 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,737 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,740 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,740 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,740 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,741 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,741 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,746 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,746 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,746 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,746 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,746 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,746 | INFO | SUCCESS | Tool=second | Time=0.0000s
+2026-08-06 00:27:00,749 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:27:00,750 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,750 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,750 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,750 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,750 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,750 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,751 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,751 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,751 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,751 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,751 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,751 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:27:00,752 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,752 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,752 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,752 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,752 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,752 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,752 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,753 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,753 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,753 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,753 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,753 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,753 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,753 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,754 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,754 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,754 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,754 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,754 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,754 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,754 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,755 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,755 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,755 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,755 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,755 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,755 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,755 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,756 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,756 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,756 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,756 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,756 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,756 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,756 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,757 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,757 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,763 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:27:00,763 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,764 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,764 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,764 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,764 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,764 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,764 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,764 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,765 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,765 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:27:00,765 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,766 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:27:00,766 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,766 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:27:00,766 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,767 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:27:00,767 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,767 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:27:00,768 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,768 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,768 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,768 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,768 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,768 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,769 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,769 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,769 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,769 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,769 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,769 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,769 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,770 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,770 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,770 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:27:00,770 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,770 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:27:00,771 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,771 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,771 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,771 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,772 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,772 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,772 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,772 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,772 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,772 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,772 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,773 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,773 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,773 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,779 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,780 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,780 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,780 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,780 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,780 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,780 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,780 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,781 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,781 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,781 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:27:00,785 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,785 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,785 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,785 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,785 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,786 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,786 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,786 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,786 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,786 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:27:00,786 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:00,940 | INFO | SUCCESS | Tool=slow | Time=0.5017s
+2026-08-06 00:29:01,008 | ERROR | ERROR | Time=0.0651s | L'outil 'slow_timeout' a dépassé le délai de 0.05s.
+2026-08-06 00:29:01,071 | ERROR | ERROR | Time=0.0597s | L'outil 'slow_default' a dépassé le délai de 0.05s.
+2026-08-06 00:29:01,131 | ERROR | ERROR | Time=0.0569s | L'outil 'slow_contract' a dépassé le délai de 0.05s.
+2026-08-06 00:29:01,207 | ERROR | ERROR | Time=0.0566s | L'outil 'slow_audit' a dépassé le délai de 0.05s.
+2026-08-06 00:29:01,265 | INFO | SUCCESS | Tool=flaky | Time=0.0306s
+2026-08-06 00:29:01,298 | ERROR | ERROR | Time=0.0308s | transient failure
+2026-08-06 00:29:01,301 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:29:01,305 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:29:01,305 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:29:01,306 | ERROR | ERROR | Time=0.0001s | L'outil 'fragile' est indisponible : circuit breaker ouvert.
+2026-08-06 00:29:01,309 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:29:01,309 | ERROR | ERROR | Time=0.0001s | L'outil 'flaky2' est indisponible : circuit breaker ouvert.
+2026-08-06 00:29:01,370 | INFO | SUCCESS | Tool=flaky2 | Time=0.0001s
+2026-08-06 00:29:01,374 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:01,375 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:29:01,381 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:01,382 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:29:01,387 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:01,388 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:29:01,392 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:01,393 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:29:01,393 | INFO | SUCCESS | Tool=echo3 | Time=0.0001s
+2026-08-06 00:29:01,394 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:01,398 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:01,399 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:29:01,399 | INFO | SUCCESS | Tool=echo3 | Time=0.0001s
+2026-08-06 00:29:01,400 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:01,704 | INFO | SUCCESS | Tool=echo | Time=0.3004s
+2026-08-06 00:29:01,705 | INFO | SUCCESS | Tool=echo2 | Time=0.3007s
+2026-08-06 00:29:01,810 | INFO | SUCCESS | Tool=echo | Time=0.1005s
+2026-08-06 00:29:01,911 | INFO | SUCCESS | Tool=echo2 | Time=0.1006s
+2026-08-06 00:29:01,937 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:01,938 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:01,943 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:01,943 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:01,944 | INFO | SUCCESS | Tool=echo3 | Time=0.0001s
+2026-08-06 00:29:01,949 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:01,949 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost2' n'existe pas.
+2026-08-06 00:29:01,954 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:01,954 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:29:01,957 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:01,965 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:02,009 | INFO | SUCCESS | Tool=sec | Time=0.0001s
+2026-08-06 00:29:02,013 | INFO | SUCCESS | Tool=sec | Time=0.0001s
+2026-08-06 00:29:02,017 | ERROR | ERROR | Time=0.0001s | Permission refusée : l'outil 'sec' requiert ['retrieval'], non inclus dans les permissions accordées : ['write'].
+2026-08-06 00:29:02,020 | INFO | SUCCESS | Tool=open | Time=0.0001s
+2026-08-06 00:29:02,023 | INFO | SUCCESS | Tool=sec_str | Time=0.0001s
+2026-08-06 00:29:02,026 | INFO | SUCCESS | Tool=budget_tool | Time=0.0001s
+2026-08-06 00:29:02,026 | INFO | SUCCESS | Tool=budget_tool | Time=0.0001s
+2026-08-06 00:29:02,026 | ERROR | ERROR | Time=0.0000s | Budget d'actions épuisé : maximum 2 action(s) autorisée(s).
+2026-08-06 00:29:02,030 | INFO | SUCCESS | Tool=unlimited | Time=0.0001s
+2026-08-06 00:29:02,031 | INFO | SUCCESS | Tool=unlimited | Time=0.0001s
+2026-08-06 00:29:02,032 | INFO | SUCCESS | Tool=unlimited | Time=0.0001s
+2026-08-06 00:29:02,032 | INFO | SUCCESS | Tool=unlimited | Time=0.0001s
+2026-08-06 00:29:02,032 | INFO | SUCCESS | Tool=unlimited | Time=0.0000s
+2026-08-06 00:29:02,041 | INFO | SUCCESS | Tool=audit_tool | Time=0.0001s
+2026-08-06 00:29:02,075 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:02,108 | INFO | SUCCESS | Tool=uid_tool | Time=0.0001s
+2026-08-06 00:29:02,110 | INFO | SUCCESS | Tool=uid_tool | Time=0.0001s
+2026-08-06 00:29:02,147 | INFO | SUCCESS | Tool=plan_tool | Time=0.0001s
+2026-08-06 00:29:02,178 | INFO | SUCCESS | Tool=json_tool | Time=0.0001s
+2026-08-06 00:29:02,208 | INFO | SUCCESS | Tool=no_audit | Time=0.0001s
+2026-08-06 00:29:02,213 | INFO | SUCCESS | Tool=schema_out | Time=0.0002s
+2026-08-06 00:29:02,216 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : count
+2026-08-06 00:29:02,220 | INFO | SUCCESS | Tool=no_schema | Time=0.0001s
+2026-08-06 00:29:02,224 | INFO | SUCCESS | Tool=contract | Time=0.0001s
+2026-08-06 00:29:02,227 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:02,236 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : query
+2026-08-06 00:29:02,270 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : count
+2026-08-06 00:29:02,300 | ERROR | ERROR | Time=0.0001s | Permission refusée : l'outil 'guarded' requiert ['admin'], non inclus dans les permissions accordées : ['user'].
+2026-08-06 00:29:34,886 | INFO | SUCCESS | Tool=test_tool | Time=0.0009s
+2026-08-06 00:29:34,890 | ERROR | ERROR | Time=0.0001s | L'outil 'nonexistent' n'existe pas.
+2026-08-06 00:29:34,893 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-06 00:29:34,897 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-06 00:29:34,912 | INFO | SUCCESS | Tool=test_tool | Time=0.1230s
+2026-08-06 00:29:34,916 | ERROR | ERROR | Time=0.0400s | Test error
+2026-08-06 00:29:34,919 | INFO | Info message
+2026-08-06 00:29:34,922 | WARNING | Warning message
+2026-08-06 00:29:34,925 | INFO | START | FusionSearch
+2026-08-06 00:29:34,925 | INFO | END | FusionSearch
+2026-08-06 00:29:34,928 | INFO | EVENT | TEST | Message
+2026-08-06 00:29:34,943 | INFO | SUCCESS | Tool=sec | Time=0.0001s
+2026-08-06 00:29:34,947 | INFO | SUCCESS | Tool=sec | Time=0.0001s
+2026-08-06 00:29:34,950 | ERROR | ERROR | Time=0.0001s | Permission refusée : l'outil 'sec' requiert ['retrieval'], non inclus dans les permissions accordées : ['write'].
+2026-08-06 00:29:34,953 | INFO | SUCCESS | Tool=open | Time=0.0001s
+2026-08-06 00:29:34,956 | INFO | SUCCESS | Tool=sec_str | Time=0.0001s
+2026-08-06 00:29:34,960 | INFO | SUCCESS | Tool=budget_tool | Time=0.0001s
+2026-08-06 00:29:34,960 | INFO | SUCCESS | Tool=budget_tool | Time=0.0000s
+2026-08-06 00:29:34,960 | ERROR | ERROR | Time=0.0000s | Budget d'actions épuisé : maximum 2 action(s) autorisée(s).
+2026-08-06 00:29:34,965 | INFO | SUCCESS | Tool=unlimited | Time=0.0001s
+2026-08-06 00:29:34,965 | INFO | SUCCESS | Tool=unlimited | Time=0.0000s
+2026-08-06 00:29:34,966 | INFO | SUCCESS | Tool=unlimited | Time=0.0000s
+2026-08-06 00:29:34,966 | INFO | SUCCESS | Tool=unlimited | Time=0.0000s
+2026-08-06 00:29:34,966 | INFO | SUCCESS | Tool=unlimited | Time=0.0000s
+2026-08-06 00:29:34,973 | INFO | SUCCESS | Tool=audit_tool | Time=0.0001s
+2026-08-06 00:29:35,003 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:35,028 | INFO | SUCCESS | Tool=uid_tool | Time=0.0001s
+2026-08-06 00:29:35,029 | INFO | SUCCESS | Tool=uid_tool | Time=0.0001s
+2026-08-06 00:29:35,059 | INFO | SUCCESS | Tool=plan_tool | Time=0.0001s
+2026-08-06 00:29:35,085 | INFO | SUCCESS | Tool=json_tool | Time=0.0001s
+2026-08-06 00:29:35,109 | INFO | SUCCESS | Tool=no_audit | Time=0.0001s
+2026-08-06 00:29:35,113 | INFO | SUCCESS | Tool=schema_out | Time=0.0001s
+2026-08-06 00:29:35,118 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : count
+2026-08-06 00:29:35,121 | INFO | SUCCESS | Tool=no_schema | Time=0.0001s
+2026-08-06 00:29:35,124 | INFO | SUCCESS | Tool=contract | Time=0.0001s
+2026-08-06 00:29:35,127 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:35,137 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : query
+2026-08-06 00:29:35,168 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : count
+2026-08-06 00:29:35,197 | ERROR | ERROR | Time=0.0004s | Permission refusée : l'outil 'guarded' requiert ['admin'], non inclus dans les permissions accordées : ['user'].
+2026-08-06 00:29:37,266 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:37,266 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:29:37,272 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:37,273 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:29:37,278 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:37,279 | INFO | SUCCESS | Tool=echo2 | Time=0.0002s
+2026-08-06 00:29:37,285 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:37,287 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:29:37,287 | INFO | SUCCESS | Tool=echo3 | Time=0.0001s
+2026-08-06 00:29:37,289 | INFO | SUCCESS | Tool=echo | Time=0.0002s
+2026-08-06 00:29:37,294 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:37,295 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:29:37,296 | INFO | SUCCESS | Tool=echo3 | Time=0.0001s
+2026-08-06 00:29:37,297 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:37,603 | INFO | SUCCESS | Tool=echo | Time=0.3002s
+2026-08-06 00:29:37,604 | INFO | SUCCESS | Tool=echo2 | Time=0.3008s
+2026-08-06 00:29:37,710 | INFO | SUCCESS | Tool=echo | Time=0.1005s
+2026-08-06 00:29:37,811 | INFO | SUCCESS | Tool=echo2 | Time=0.1006s
+2026-08-06 00:29:37,843 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:37,844 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:37,852 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:37,853 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:37,854 | INFO | SUCCESS | Tool=echo3 | Time=0.0001s
+2026-08-06 00:29:37,859 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:37,859 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost2' n'existe pas.
+2026-08-06 00:29:37,865 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:37,866 | INFO | SUCCESS | Tool=echo2 | Time=0.0001s
+2026-08-06 00:29:37,869 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:37,876 | INFO | SUCCESS | Tool=echo | Time=0.0001s
+2026-08-06 00:29:38,805 | INFO | SUCCESS | Tool=slow | Time=0.5004s
+2026-08-06 00:29:38,870 | ERROR | ERROR | Time=0.0593s | L'outil 'slow_timeout' a dépassé le délai de 0.05s.
+2026-08-06 00:29:38,940 | ERROR | ERROR | Time=0.0656s | L'outil 'slow_default' a dépassé le délai de 0.05s.
+2026-08-06 00:29:39,002 | ERROR | ERROR | Time=0.0583s | L'outil 'slow_contract' a dépassé le délai de 0.05s.
+2026-08-06 00:29:39,074 | ERROR | ERROR | Time=0.0624s | L'outil 'slow_audit' a dépassé le délai de 0.05s.
+2026-08-06 00:29:39,131 | INFO | SUCCESS | Tool=flaky | Time=0.0308s
+2026-08-06 00:29:39,166 | ERROR | ERROR | Time=0.0306s | transient failure
+2026-08-06 00:29:39,170 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:29:39,173 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:29:39,174 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:29:39,174 | ERROR | ERROR | Time=0.0000s | L'outil 'fragile' est indisponible : circuit breaker ouvert.
+2026-08-06 00:29:39,177 | ERROR | ERROR | Time=0.0001s | transient failure
+2026-08-06 00:29:39,177 | ERROR | ERROR | Time=0.0000s | L'outil 'flaky2' est indisponible : circuit breaker ouvert.
+2026-08-06 00:29:39,237 | INFO | SUCCESS | Tool=flaky2 | Time=0.0002s
+2026-08-06 00:29:39,242 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-06 00:29:39,245 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-06 00:29:39,250 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-06 00:29:39,253 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-06 00:29:39,256 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-06 00:29:39,259 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : tool
+2026-08-06 00:29:39,263 | ERROR | ERROR | Time=0.0000s | Champ obligatoire manquant : parameters
+2026-08-06 00:29:39,267 | ERROR | ERROR | Time=0.0000s | Le nom de l'outil doit être une chaîne.
+2026-08-06 00:29:39,270 | ERROR | ERROR | Time=0.0000s | Les paramètres doivent être un dictionnaire.
+2026-08-06 00:29:39,273 | ERROR | ERROR | Time=0.0000s | Une action doit être un dictionnaire.
+2026-08-06 00:29:39,276 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,282 | ERROR | ERROR | Time=0.0002s | L'outil '' n'existe pas.
+2026-08-06 00:29:39,285 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,288 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,292 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-06 00:29:39,295 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-06 00:29:39,300 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-06 00:29:39,304 | ERROR | ERROR | Time=0.0001s | boom
+2026-08-06 00:29:39,304 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,307 | ERROR | ERROR | Time=0.0001s | Paramètre obligatoire manquant : query
+2026-08-06 00:29:39,310 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit être de type string, reçu : int
+2026-08-06 00:29:39,316 | ERROR | ERROR | Time=0.0001s | Le paramètre 'mode' doit être l'une des valeurs : ['fast', 'precise'], reçu : interdit
+2026-08-06 00:29:39,319 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au moins 2 caractère(s)
+2026-08-06 00:29:39,323 | ERROR | ERROR | Time=0.0001s | Le paramètre 'query' doit contenir au maximum 50 caractère(s)
+2026-08-06 00:29:39,326 | INFO | SUCCESS | Tool=schema_tool | Time=0.0001s
+2026-08-06 00:29:39,330 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-06 00:29:39,334 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-06 00:29:39,337 | ERROR | ERROR | Time=0.0001s | Prompt Injection détectée.
+2026-08-06 00:29:39,337 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,341 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,341 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,341 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,341 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,342 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,347 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,347 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,347 | ERROR | ERROR | Time=0.0002s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,348 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,348 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,351 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,351 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,352 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,352 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,352 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,352 | INFO | SUCCESS | Tool=second | Time=0.0000s
+2026-08-06 00:29:39,355 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,356 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,356 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,356 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,356 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,356 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,357 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,357 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,357 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,357 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,357 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,357 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,357 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,358 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,358 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,358 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,358 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,359 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,359 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,359 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,359 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,359 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,360 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,360 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,360 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,360 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,360 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,360 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,361 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,361 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,361 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,361 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,361 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,361 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,361 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,362 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,363 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,364 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,364 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,364 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,365 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,365 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,365 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,365 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,365 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,365 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,366 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,366 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,366 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,366 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,370 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,370 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,370 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,370 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,370 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,371 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,371 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,371 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,371 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,371 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,371 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,371 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,372 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,372 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,372 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,372 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,372 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,372 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,372 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,373 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,373 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,373 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,373 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,373 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,373 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,374 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,374 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,374 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,374 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,374 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,374 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,374 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,375 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,375 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,375 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,375 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,375 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,376 | ERROR | ERROR | Time=0.0008s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,377 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,377 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,377 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,377 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,377 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,378 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,378 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,378 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,378 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,378 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,378 | INFO | SUCCESS | Tool=dummy | Time=0.0000s
+2026-08-06 00:29:39,378 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,379 | INFO | SUCCESS | Tool=dummy | Time=0.0002s
+2026-08-06 00:29:39,385 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,385 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,386 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,386 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,386 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,386 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,387 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,387 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,387 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,387 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,387 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
+2026-08-06 00:29:39,393 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,393 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,393 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,393 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,394 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,394 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,394 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,394 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,395 | ERROR | ERROR | Time=0.0001s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,395 | ERROR | ERROR | Time=0.0000s | L'outil 'ghost' n'existe pas.
+2026-08-06 00:29:39,395 | INFO | SUCCESS | Tool=dummy | Time=0.0001s
