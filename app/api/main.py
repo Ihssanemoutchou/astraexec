@@ -13,6 +13,10 @@ from app.retrieval.evidence_rank import EvidenceRank
 from app.retrieval.document_manager import DocumentManager
 from app.retrieval.query_profiler import QueryProfiler
 
+# --- Couche d'intégration Module REASONING (additive, contrat v1.0) ---
+from app.schemas.retrieval_contract import RetrievalRequest, RetrievalResponse
+from app.integration.retrieval_adapter import RetrievalAdapter, RetrievalError
+
 app = FastAPI(
     title="AstraExec",
     version="2.0.0",
@@ -75,6 +79,31 @@ class FusionTool(BaseTool):
 
 
 executor.register_tool(FusionTool())
+
+# Façade /retrieve : utilise le même Executor (et donc le même fusion_search)
+# que /execute — aucun composant métier n'est modifié.
+retrieval_adapter = RetrievalAdapter(executor)
+
+
+@app.post("/retrieve", response_model=RetrievalResponse)
+def retrieve(request: RetrievalRequest) -> RetrievalResponse:
+    """
+    Point d'entrée du module REASONING (contrat RetrievalRequest/RetrievalResponse).
+
+    Endpoint volontairement minimal : toute la logique de mapping vit dans
+    RetrievalAdapter (app/integration/retrieval_adapter.py).
+    """
+    return retrieval_adapter.retrieve(request)
+
+
+@app.exception_handler(RetrievalError)
+def retrieval_error_handler(request, exc: RetrievalError):
+    """Erreur de retrieval → HTTP 400, avec query_id pour corrélation multi-hop."""
+    body = {"detail": str(exc)}
+    if exc.query_id:
+        body["query_id"] = exc.query_id
+    return JSONResponse(status_code=400, content=body)
+
 
 @app.get("/")
 def home():
